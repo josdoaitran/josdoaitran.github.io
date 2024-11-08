@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What is Jekyll"
-author: jane
+title:  "What is Performance Testing"
+author: donald
 categories: [ Jekyll, tutorial ]
 image: assets/images/11.jpg
 ---
@@ -10,7 +10,7 @@ No more databases, comment moderation, or pesky updates to install-just your con
 
 Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.
 
-## What is Jekyll?
+## What is Performance Testing?
 
 Jekyll is a simple, blog-aware, static site generator.
 
