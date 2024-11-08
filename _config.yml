@@ -1,5 +1,5 @@
 # Site
-name: 'Mundana'
+name: 'Donal Tran Home'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -21,19 +21,19 @@ plugins:
 authors:
     donald:
       name:           Donald
-      site:           https://www.wowthemes.net
+      site:           https://www.linkedin.com/in/doai-tran-nguyen-van-b125b051/
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Hi, I am Donald (Doai Tran), the author of Testing4Everyone. I hope you like it!"
+      email:          doai.tran@gmail.com
+      youtube:        https://www.youtube.com/@testing4everyone
 
     testing4everyone:
       name:           Testing4Everyone
-      site:           https://www.wowthemes.net
+      site:           https://josdoaitran.github.io
       avatar:         assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      bio:            "Blogger account, Youtuber account, who Donald wrote on my morning coffee!"
       email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      youtube:        https://www.youtube.com/@testing4everyone
  
 # Defaults
 defaults:
