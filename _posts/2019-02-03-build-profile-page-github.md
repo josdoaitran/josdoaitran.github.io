@@ -4,11 +4,13 @@ title:  "Build a profile page and personalize your github page"
 author: donald
 categories: [ Sharing, Tips ]
 image: https://i.ibb.co/FhVWHXj/Selected-November-10-2024-16-55-20.jpg
-tags: [summer]
+tags: [Tips, Sharing]
 ---
+In this post, I'll show you how to enhance your GitHub profile, how you can make it profile more attractive to make a good impression on the employer.
+
 # Create a github account and personalize a Github page
-- Github account and create a repository with name same with your account
-    - Example: githunb.com/banhbeo
+- GitHub account and create a repository with name same with your account
+    - Example: https://github.com/banhbeo
     - Create a repository account: banhbeo
 - Use this page to generate html and [readme.md](http://readme.md) file
     - https://rahuldkjain.github.io/gh-profile-readme-generator/
