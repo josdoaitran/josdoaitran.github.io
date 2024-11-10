@@ -2,47 +2,39 @@
 layout: post
 title:  "Build a profile page and personalize your github page"
 author: donald
-categories: [ Jekyll, tutorial ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+categories: [ Sharing, Tips ]
+image: https://i.ibb.co/FhVWHXj/Selected-November-10-2024-16-55-20.jpg
 tags: [summer]
 ---
-There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
+# Create a github account and personalize a Github page
+- Github account and create a repository with name same with your account
+    - Example: githunb.com/banhbeo
+    - Create a repository account: banhbeo
+- Use this page to generate html and [readme.md](http://readme.md) file
+    - https://rahuldkjain.github.io/gh-profile-readme-generator/
+    - https://gprm.itsvg.in/
+- Copy the content of html or [readme.md](http://readme.md) file and save them into your account.
 
-As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
+![walking](https://i.ibb.co/FhVWHXj/Selected-November-10-2024-16-55-20.jpg)
 
+# Create a profile page via Github
 
-## Special formatting
+## Set up a repository
+- Create a repository with name following convention like: your_profile_page_name.github.io
+  - Example: doai.tran.github.io
+## Generate the content as html or markdown file (.md)
+- Use this page to generate html and [readme.md](http://readme.md) file
+  - https://rahuldkjain.github.io/gh-profile-readme-generator/
+  - https://gprm.itsvg.in/
+- Copy the content of html or [readme.md](http://readme.md) file and save them into your Github repository that you created.
+## Configure the setting of your reposiory to deploy and publish your site
+These steps help uss configure your repository to publish your website:
+![walking](https://i.ibb.co/xLknc5R/set-up-page-github-configure.jpg)
+- Open settings. In Pages tab, Following to Github page, we set up the follow to deploy a site via static `html` or `readme.md` file.
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
-
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
-
-
-## Writing code blocks
-
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
-
-```
-.my-link {
-    text-decoration: underline;
-}
-```
-
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
-
-
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
+## Example Deployment steps
+You can aceess to `Actions` tab in your repository, to see all steps should be deployed successfully. It can look like here.
+![walking](https://i.ibb.co/gJyVjZ0/github-hub-actions-publish-site.jpg)
 
 ## Reference lists
-
-The quick brown jumped over the lazy.
-
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
-
-## Full HTML
-
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+Guideline: [https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile)
