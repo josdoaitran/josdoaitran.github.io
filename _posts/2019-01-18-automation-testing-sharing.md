@@ -3,7 +3,7 @@ layout: post
 title:  "Automation Testing Sharing"
 author: testing4everyone
 categories: [ Automation-Test, tutorial ]
-image: assets/images/home.jpg
+image: assets/images/software-testing-tools.jpg
 tags: [sticky]
 ---
 
