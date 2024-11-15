@@ -3,7 +3,7 @@ layout: post
 title:  "Automation Testing Sharing"
 author: testing4everyone
 categories: [ Automation-Test, tutorial ]
-image: assets/images/software-testing-tools.jpg
+image: https://www.testingmind.com/wp-content/uploads/2022/11/623b0aa81f62670d19d49d2f_What-are-the-11-ways-your-company-can-do-software-testing-more-efficiently_-2-100-1.jpg
 tags: [sticky]
 ---
 
