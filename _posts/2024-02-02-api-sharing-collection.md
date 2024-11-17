@@ -3,7 +3,7 @@ layout: post
 title:  "API Testing Sharing Collections"
 author: donald
 categories: [ sharing ]
-image: https://www.xenonstack.com/hubfs/xenonstack-api-testing-tools.png
+image: assets/images/software-testing-general/testing4everyone-api-testing.png
 tags: [featured]
 ---
 # Overview
@@ -44,40 +44,24 @@ Some of the tools used for API Testing are as follows:
 - [Unirest](https://www.npmjs.com/package/unirest)
 - [WebInject](http://www.webinject.org/)
 
-# Postman- API Testing Functional Testing and Performance testing
+# Postman - API Testing Functional Testing and Performance testing
 
-> Postman- API Testing Functional Testing and Performance testing
+> Postman tools - API Testing Functional Testing and Performance testing <
 
-- API testing with **Postman** - Basic
-- **Variables, Pre-request, Post-request, Parameterization**
-- Automated API test with **Postman**
-    - Trigger run manually
-    - Trigger run scheduler.
-    - Automatically trigger run
-    - Run Postman with imported data (CSV file)
+## API Testing with Postman
+What I shared about API Postman tool in Testing4Everyone channels in Vietnamese language.
 
-  https://learning.postman.com/docs/collections/running-collections/working-with-data-files/
+<p><iframe style="width:100%;" height="515" src="https://www.youtube.com/embed/qiKU4YpTFxA?si=D96Rd6oWw3Kavmua" frameborder="0" allowfullscreen></iframe></p>
 
-    - **Newman - Trigger Test CICD**
-    - Trigger **parallel Execution for multi-collections**
-    - Generate **HTML report**
-    - Trigger the test on **Schedule Run**
+## Other Note about Postman tools
+- **Postman Flow**: [https://www.postman.com/product/flows/](https://www.postman.com/product/flows/)
+- **Postman Proxy:** [https://learning.postman.com/docs/getting-started/installation/proxy/](https://learning.postman.com/docs/getting-started/installation/proxy/)
+- **Postman virtualization:** [https://www.postman.com/reshmidxc/workspace/service-virtualization/overview](https://www.postman.com/reshmidxc/workspace/service-virtualization/overview)
+- **Postman with Development tools chain**: [https://learning.postman.com/docs/developer/postman-api/intro-api/](https://learning.postman.com/docs/developer/postman-api/intro-api/)
 
-**Other**
-
-- **Postman Flow**: https://www.postman.com/product/flows/
-- **Postman Proxy:** https://learning.postman.com/docs/getting-started/installation/proxy/
-- **Postman virtualization:** https://www.postman.com/reshmidxc/workspace/service-virtualization/overview
-- **Postman with Development tools chain**: https://learning.postman.com/docs/developer/postman-api/intro-api/
-
-**Performance Test with Postman**
-
-https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/
-
-**AI for API Testing**
-**Postbot AI assistant** with **Postman**
+## Performance Test with Postman**
+[https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/)
 
 # References:
-
-- https://www.softwaretestingmaterial.com/api-testing/
-- https://www.thegreenreport.blog/articles/test-scripts-in-postman/test-scripts-in-postman.html
+- [https://www.softwaretestingmaterial.com/api-testing/](https://www.softwaretestingmaterial.com/api-testing/)
+- [https://www.thegreenreport.blog/articles/test-scripts-in-postman/test-scripts-in-postman.html](https://www.thegreenreport.blog/articles/test-scripts-in-postman/test-scripts-in-postman.html)
