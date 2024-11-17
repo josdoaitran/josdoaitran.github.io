@@ -3,7 +3,7 @@ layout: post
 title:  "Software Testing Sharing"
 author: donald
 categories: [ Sharing, Collection ]
-image: https://www.indium.tech/wp-content/uploads/2021/04/115-7-Reasons-Why-Software-Testing-is-Important-1110x454.jpg
+image: assets/images/software-testing-general/Software-Testing-Tools.jpg
 ---
 
 In this page, I collected all my posts and videos I shared on Testing4Everyone youtube channels about Software Testing from Beginner level to Advanced levels.
