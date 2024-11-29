@@ -2,14 +2,48 @@
 layout: post
 title:  "Options for creating a new site with Jekyll"
 author: testing4everyone
-categories: [ Jekyll, tutorial ]
-image: assets/images/13.jpg
+categories: [ Testing, Sharing, Document ]
+image: assets/images/software-testing-general/testing4everyone-api-testing.png
 ---
 
-`jekyll new <PATH>` installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called `myblog`. Here are some additional details:
+Here is the code, that I shared for API testing in Testing4Everyone.
 
-- To install the Jekyll site into the directory you're currently in, run `jekyll new` . If the existing directory isn't empty, you can pass the --force option with jekyll new . --force.
-- `jekyll new` automatically initiates `bundle install` to install the dependencies required. (If you don't want Bundler to install the gems, use `jekyll new myblog --skip-bundle`.)
-- By default, the Jekyll site installed by `jekyll new` uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.
-- We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use `jekyll new myblog --blank`
-- To learn about other parameters you can include with `jekyll new`, type `jekyll new --help`.
+```java
+package utilities;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class DatabaseLibs {
+    public static void executeStatement(String databaseURL, String user, String password, String statement) {
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+
+        try {
+            conn = DriverManager.getConnection(databaseURL, user, password);
+            pstmt = conn.prepareStatement(statement);
+            int affectedRows = pstmt.executeUpdate();
+            if (affectedRows > 0) {
+                System.out.println("Record(s) deleted successfully from statement" + statement);
+            } else {
+                System.out.println("No records found to delete with the given statement.");
+            }
+        } catch (SQLException e) {
+            System.out.println("Failed to delete record from database: " + e.getMessage());
+        } finally {
+            try {
+                // Close the PreparedStatement and Connection
+                if (pstmt != null) {
+                    pstmt.close();
+                }
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                System.out.println("Failed to close resources: " + e.getMessage());
+            }
+        }
+    }
+}
+```
