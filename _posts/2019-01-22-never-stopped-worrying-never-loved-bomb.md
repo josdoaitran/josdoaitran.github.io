@@ -1,37 +1,31 @@
 ---
 layout: post
-title:  "Never stopped worrying or loving the bomb"
+title:  "My Personal Life and Thinking"
 author: donald
-categories: [ Jekyll ]
-image: assets/images/14.jpg
-tags: featured
+categories: [ Doai-Tran ]
+image: assets/images/general-sharing/refresh-my-mind-my-life.jpg
+tags: sharing
 ---
-I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.
 
-So begins Hallam Hawksworth’s The Strange Adventures of a Pebble. Written in the 1920s, the book was part of a series which also included The Adventures of a Grain of Dust and A Year in the Wonderland of Trees, all of which were supposed to introduce children to the world of Natural Sciences. 
+# Everything about me, you can follow here:
 
-In each of them, Hawksworth personifies the natural object he is exploring, and using a mixture of folk tales, scientific facts and colloquial, friendly explanations guides the reader through the history of the natural world. It’s a real thrill of a ride, dramatizing the life cycle of supposedly dull things. The Adventures of a Grain of Dust begins even more loudly than Pebble:
+## Passionate Freedom
+- Financial Freedom
+- Thinking Freedom
+## Wisdom, Achievement & Mindset
+- “Today’s Presentation determines tomorrow's achievement”
+- “leave this world a better place than we found it”
+## My Interests and Hobbies
+### Reading book and Favorite Books
+- **Holy Bible**: https://www.amazon.com/KJV-Holy-Bible-Standard-Leather/dp/1432132652/ref=sr_1_1?crid=1TZ8F9Z2YGO00&keywords=Holy+Bible&qid=1702747761&s=books&sprefix=%2Cstripbooks-intl-ship%2C289&sr=1-1
+- **The power of Positive Thinking**: https://www.amazon.com/Power-Positive-Thinking-Norman-Vincent/dp/0743234804
+- **Five Loaves & Two Fish - [Nguyen Van Thuan](https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&field-author=Francis+Xavier+Nguyen+Van+Thuan&text=Francis+Xavier+Nguyen+Van+Thuan&sort=relevancerank&search-alias=books):** https://www.amazon.com/Loaves-Francis-Xavier-Nguyen-Thuan/dp/0819826766
+### Thinking Mindset to win the Freedom
+- Have the right direction in your personal life
+- Friend Zone and Relationship to have the same interests
+- Choose a proper living and working environment to feel safe and comfortable.
+- Marry the right person (”Warren Buffet”)
 
-I don’t want you to think that I’m boasting, but I do believe I’m one of the greatest travellers that ever was; and if anybody, living or dead, has ever gone through with more than I have I’d like to hear about it.
+# Child Pages:
+TBD
 
-> Hallam Hawksworth was the pen-name of teacher Francis Blake Atkinson. He was married to the author Eleanor Stackhouse Atkinson, author of the children’s classic Greyfriars Bobby, which was based on the (supposedly) true story of a Scottish dog who spent fourteen years guarding his masters grave. The couple were both committed to education and published a weekly magazine for Chicago high school students called The Little Chronicle, as well as working for Encyclopaedia companies later in life.
-
-I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.
-
-So begins Hallam Hawksworth’s The Strange Adventures of a Pebble. Written in the 1920s, the book was part of a series which also included The Adventures of a Grain of Dust and A Year in the Wonderland of Trees, all of which were supposed to introduce children to the world of Natural Sciences. 
-
-In each of them, Hawksworth personifies the natural object he is exploring, and using a mixture of folk tales, scientific facts and colloquial, friendly explanations guides the reader through the history of the natural world. It’s a real thrill of a ride, dramatizing the life cycle of supposedly dull things. The Adventures of a Grain of Dust begins even more loudly than Pebble:
-
-#### I don’t want you to think that I’m boasting
-
-Hallam Hawksworth was the pen-name of teacher Francis Blake Atkinson. He was married to the author Eleanor Stackhouse Atkinson, author of the children’s classic Greyfriars Bobby, which was based on the (supposedly) true story of a Scottish dog who spent fourteen years guarding his masters grave. The couple were both committed to education and published a weekly magazine for Chicago high school students called The Little Chronicle, as well as working for Encyclopaedia companies later in life.
-
-I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.
-
-> So begins Hallam Hawksworth’s The Strange Adventures of a Pebble. Written in the 1920s, the book was part of a series which also included The Adventures of a Grain of Dust and A Year in the Wonderland of Trees, all of which were supposed to introduce children to the world of Natural Sciences. 
-
-In each of them, Hawksworth personifies the natural object he is exploring, and using a mixture of folk tales, scientific facts and colloquial, friendly explanations guides the reader through the history of the natural world. It’s a real thrill of a ride, dramatizing the life cycle of supposedly dull things. The Adventures of a Grain of Dust begins even more loudly than Pebble:
-
-I don’t want you to think that I’m boasting, but I do believe I’m one of the greatest travellers that ever was; and if anybody, living or dead, has ever gone through with more than I have I’d like to hear about it.
-
-Hallam Hawksworth was the pen-name of teacher Francis Blake Atkinson. He was married to the author Eleanor Stackhouse Atkinson, author of the children’s classic Greyfriars Bobby, which was based on the (supposedly) true story of a Scottish dog who spent fourteen years guarding his masters grave. The couple were both committed to education and published a weekly magazine for Chicago high school students called The Little Chronicle, as well as working for Encyclopaedia companies later in life.

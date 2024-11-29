@@ -3,7 +3,7 @@ layout: post
 title:  "What is Performance Testing"
 author: donald
 categories: [ testing, tutorial ]
-image: assets/images/performance-test-jmeter-basic-course.png
+image: assets/images/performance-testing/performance-test-jmeter-basic-course.png
 ---
 
 In this page, I would like to collect all notes, posts about Performance testing.
