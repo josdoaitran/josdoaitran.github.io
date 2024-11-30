@@ -1,6 +1,6 @@
 # Site
-name: 'Donal Tran Home'
-description: 'Persoal Sites. Where I write and post all blogs'
+name: 'Home'
+description: 'Personal Sites. Where I write and post all blogs'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
