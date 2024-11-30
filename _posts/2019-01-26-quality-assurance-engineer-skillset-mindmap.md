@@ -2,13 +2,17 @@
 layout: post
 title:  "Quality Assurance Engineer Skill-set MindMap"
 author: testing4everyone
-categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+categories: [ Testing4Everyone, tutorial ]
+image: assets/images/general-sharing/development-skill-set.png
 ---
-In this post, I would like to collect all essential knowledges and points that a Quality Assurance or Quality Engineer should have to have a strong career-path in Software engineer aspects. 
+In this post, I would like to collect all essential knowledges and points that a Quality Assurance or Quality Engineer should have to have a strong career-path in Software engineer aspects.
 
-> It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story. 
+![walking]({{ site.baseurl }}/assets/images/software-testing-general/quality-assurance-skillset-mindmap.jpg)
 
 Here is the MindMap that I shared on Testing4everyone Youtube channel.
 
-Link to download: https://drive.google.com/file/d/1tiCZ1tLMovgjhi-nQ3_R_EOSgSFpqZme/view?usp=drive_link
+Link to download: [https://drive.google.com/file/d/1tiCZ1tLMovgjhi-nQ3_R_EOSgSFpqZme/view?usp=drive_link](https://drive.google.com/file/d/1tiCZ1tLMovgjhi-nQ3_R_EOSgSFpqZme/view?usp=drive_link)
+
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/zvYEQSBsIUE?si=VbqxENtWVUeKcqfP" frameborder="0" allowfullscreen></iframe></p>
+
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/oNTV1lBDwhU?si=q4UYDkhnTR4fS-Xb" frameborder="0" allowfullscreen></iframe></p>
