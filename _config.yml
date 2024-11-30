@@ -1,11 +1,11 @@
 # Site
-name: 'Home'
+name: 'Doai Tran'
 description: 'Personal Sites. Where I write and post all blogs'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+disqus: 'josdoaitran'
+email: 'doai.tran@outlook.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -24,7 +24,7 @@ authors:
       site:           https://www.linkedin.com/in/doai-tran-nguyen-van-b125b051/
       avatar:         assets/images/avatar1.jpeg
       bio:            "Hi, I am Donald (Doai Tran), the author of Testing4Everyone. I hope you like it!"
-      email:          doai.tran@gmail.com
+      email:          doai.tran@outlook.com
       youtube:        https://www.youtube.com/@testing4everyone
 
     testing4everyone:
@@ -32,7 +32,7 @@ authors:
       site:           https://josdoaitran.github.io
       avatar:         assets/images/avatar2.png
       bio:            "Blogger account, Youtuber account, who Donald wrote on my morning coffee!"
-      email:          fakemail@gmail.com
+      email:          testingforevryone@gmail.com
       youtube:        https://www.youtube.com/@testing4everyone
  
 # Defaults
