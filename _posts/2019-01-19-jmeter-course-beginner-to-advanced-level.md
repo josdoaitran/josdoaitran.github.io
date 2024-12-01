@@ -2,9 +2,8 @@
 layout: post
 title:  "JMeter Course: From Beginner to Advanced Levels with Testing4Everyone"
 author: testing4everyone
-categories: [ Jekyll, tutorial ]
+categories: [ performance-test, tutorial ]
 image: assets/images/performance-testing/performance-test-jmeter-basic-course.png
-tags: featured
 ---
 # Summary
 

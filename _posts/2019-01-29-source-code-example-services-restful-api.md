@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "About Bundler"
+title:  "Source Code - Example Services Restful API for API Testing Course"
 author: donald
-categories: [ Jekyll ]
+categories: [ Source Code ]
 image: assets/images/2.jpg
+tags: [premium]
 ---
 `gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
 

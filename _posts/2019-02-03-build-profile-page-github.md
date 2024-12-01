@@ -4,7 +4,6 @@ title:  "Build a profile page and personalize your github page"
 author: donald
 categories: [ Sharing, Tips ]
 image: assets/images/general-sharing/build-a-profile-page-github-io.jpg
-tags: [Tips, Sharing]
 ---
 In this post, I'll show you how to enhance your GitHub profile, how you can make it profile more attractive to make a good impression on the employer.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Essential points of Sampler Controller, Module Controller, Test Fragment, Include controller."
 author: testing4everyone
-categories: [ Jekyll, tutorial ]
+categories: [ JMeter, tutorial ]
 image: assets/images/performance-testing/simple-controller-modular-controller-in-jmeter.png
 ---
 

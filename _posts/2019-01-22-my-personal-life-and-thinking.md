@@ -4,7 +4,6 @@ title:  "My Personal Life and Thinking"
 author: donald
 categories: [ Doai-Tran ]
 image: assets/images/general-sharing/refresh-my-mind-my-life.jpg
-tags: sharing
 ---
 
 # Everything about me, you can follow here:

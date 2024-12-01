@@ -4,7 +4,6 @@ title:  "Automation Testing Sharing"
 author: testing4everyone
 categories: [ Automation-Test, tutorial ]
 image: https://www.testingmind.com/wp-content/uploads/2022/11/623b0aa81f62670d19d49d2f_What-are-the-11-ways-your-company-can-do-software-testing-more-efficiently_-2-100-1.jpg
-tags: [sticky]
 ---
 
 Summary: In this space, I would like to collect all information about what I shared about Automation Testing on Testing4Everyone Youtube Channel.

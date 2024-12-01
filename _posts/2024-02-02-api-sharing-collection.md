@@ -4,7 +4,6 @@ title:  "API Testing Sharing Collections"
 author: donald
 categories: [ sharing ]
 image: assets/images/software-testing-general/testing4everyone-api-testing.png
-tags: [featured]
 ---
 # Overview
 

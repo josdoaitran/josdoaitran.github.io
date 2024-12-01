@@ -2,8 +2,9 @@
 layout: post
 title:  "Premium Courses with me"
 author: donald
-categories: [ premium, tutorial ]
+categories: [ tutorial ]
 image: assets/images/premium.png
+tags: [premium]
 ---
 
 # About Premium Course with me
@@ -27,4 +28,4 @@ Everything about software testing
 ## Support me
 - Buy me a coffee
 - Payment:
-![breaking]{{ site.baseurl }}/assets/images/general-sharing/bank-info.jpeg)
+![breaking]({{ site.baseurl }}/assets/images/general-sharing/bank-info.jpeg)
