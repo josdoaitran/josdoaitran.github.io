@@ -2,7 +2,7 @@
 layout: post
 title:  "Run data providers in parallel - Programming Concept"
 author: testing4everyone
-categories: [ testing4everyone, tutorial ]
+categories: [ sharing, tutorial ]
 image: assets/images/general-sharing/programming.png
 ---
 Parallel data providers are an approach used to enhance the efficiency of data processing by running multiple data retrieval tasks concurrently. This technique is particularly useful in scenarios where data needs to be fetched from multiple sources or where data retrieval is time-consuming. Here are some key aspects of parallel data providers:

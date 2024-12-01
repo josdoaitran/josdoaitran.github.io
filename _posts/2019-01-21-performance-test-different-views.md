@@ -2,7 +2,7 @@
 layout: post
 title:  "Performance test - Different views between Client Side and Server/Service Side"
 author: donald
-categories: [ Testing4Everyone, tutorial ]
+categories: [ performance-test, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
 ---
 In Web application and Mobile application, The view of Client Side and Server Side discribes the overview how our application works in the Internet views. In Client-Server view, the EndUser will use FrontEnd app to communicate with Backend app via the Internet connection base.

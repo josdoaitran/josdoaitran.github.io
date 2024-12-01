@@ -2,7 +2,7 @@
 layout: post
 title:  "Sharing - Code SQL Statement on Testing4Everyone Channels"
 author: testing4everyone
-categories: [ Testing, Sharing, Document ]
+categories: [ automation-test, tutorial, document ]
 image: assets/images/software-testing-general/testing4everyone-api-testing.png
 ---
 

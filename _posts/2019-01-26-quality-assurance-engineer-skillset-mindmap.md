@@ -2,7 +2,7 @@
 layout: post
 title:  "Quality Assurance Engineer Skill-set MindMap"
 author: testing4everyone
-categories: [ testing4everyone, tutorial ]
+categories: [ sharing, skill-set ]
 image: assets/images/general-sharing/development-skill-set.png
 ---
 In this post, I would like to collect all essential knowledges and points that a Quality Assurance or Quality Engineer should have to have a strong career-path in Software engineer aspects.

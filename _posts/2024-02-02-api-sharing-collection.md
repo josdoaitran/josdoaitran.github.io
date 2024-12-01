@@ -2,7 +2,7 @@
 layout: post
 title:  "API Testing Sharing Collections"
 author: donald
-categories: [ sharing ]
+categories: [ sharing, collection ]
 image: assets/images/software-testing-general/testing4everyone-api-testing.png
 ---
 # Overview

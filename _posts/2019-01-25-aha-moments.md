@@ -2,7 +2,7 @@
 layout: post
 title:  "Aha Moment !"
 author: donald
-categories: [ sharing, tutorial ]
+categories: [ sharing, mindset ]
 image: assets/images/general-sharing/aha-moment.png
 ---
 “Each day, I alway expect to get an Aha moment by learning new things, recognizing my achievements”

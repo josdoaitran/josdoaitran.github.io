@@ -2,7 +2,7 @@
 layout: post
 title:  "If Controller in JMeter"
 author: donald
-categories: [ JMeter, tutorial ]
+categories: [ jmeter, tutorial ]
 image: assets/images/performance-testing/if-controller-in-jmeter.png
 ---
 >If Controller is one of the most important controllers. In JMeter, the "If Controller" is used to execute its child elements only when a specified condition evaluates to true. To evaluate all child elements under the "If Controller," we can use a combination of a condition and well-designed child elements.

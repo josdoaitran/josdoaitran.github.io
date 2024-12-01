@@ -2,7 +2,7 @@
 layout: post
 title:  "My Personal Life and Thinking"
 author: donald
-categories: [ Doai-Tran ]
+categories: [ sharing, mindset ]
 image: assets/images/general-sharing/refresh-my-mind-my-life.jpg
 ---
 

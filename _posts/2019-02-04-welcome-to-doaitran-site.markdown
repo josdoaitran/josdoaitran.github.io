@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Me"
-categories: [ Testing4Everyone ]
+categories: [ testing4everyone ]
 image: assets/images/general-sharing/doai-tran-home.png
 ---
 # 💫 About Me

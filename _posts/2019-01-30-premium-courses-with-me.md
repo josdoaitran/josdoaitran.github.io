@@ -2,7 +2,7 @@
 layout: post
 title:  "Premium Courses with me"
 author: donald
-categories: [ tutorial ]
+categories: [ tutorial, testing4everyone ]
 image: assets/images/premium.png
 tags: [premium]
 ---

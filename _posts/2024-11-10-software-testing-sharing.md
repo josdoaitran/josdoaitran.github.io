@@ -2,7 +2,7 @@
 layout: post
 title:  "Software Testing Sharing"
 author: donald
-categories: [ Sharing, Collection ]
+categories: [ sharing, collection ]
 image: assets/images/software-testing-general/Software-Testing-Tools.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ikigai Concept"
 author: donald
-categories: [ sharing ]
+categories: [ sharing, mindset ]
 image: assets/images/4.jpg
 ---
 Ikigai is **a Japanese concept that means "reason for being**"
