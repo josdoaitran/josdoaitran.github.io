@@ -5,7 +5,7 @@ author: donald
 categories: [ performance-test, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
 ---
-In Web application and Mobile application, The view of Client Side and Server Side discribes the overview how our application works in the Internet views. In Client-Server view, the EndUser will use FrontEnd app to communicate with Backend app via the Internet connection base.
+In Web application and Mobile application, The view of Client Side and Server Side describes the overview how our application works in the Internet views. In Client-Server view, the EndUser will use FrontEnd app to communicate with Backend app via the Internet connection base.
 
 End user devices such as laptops, smartphones, and desktop computers are considered to be 'clients' of the servers, as if they were customers obtaining services from a company. Client devices send requests to the servers for webpages or applications, and the servers serve up responses.
 
