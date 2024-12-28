@@ -91,4 +91,37 @@ We will receive the list of available AVD, such as:
 You should check your device version to choose the proper version
 ![walking]({{ site.baseurl }}/assets/images/android-studio/choose-avd-version.png)
 
+I am using an Android device with SDK 34 so that I run this command:
+```shell
+./rootAVD.sh system-images/android-34/google_apis_playstore/arm64-v8a/ramdisk.img
+```
 
+Your android devices will be shutdown automatically.
+Then, we need to `cold boot` for our Android device.
+![walking]({{ site.baseurl }}/assets/images/android-studio/cold-boot-emulator-android-device.png)
+
+You can dismiss the notification on your device during the cold boot.
+
+![walking]({{ site.baseurl }}/assets/images/android-studio/dismiss-cold-boot-emulator-android-device.png)
+
+Magisk application should be installed successfully in your android device.
+![walking]({{ site.baseurl }}/assets/images/android-studio/magisk-app.png)
+
+Open Magisk, We will be asked to install some additional set-up.
+![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-requires-additional-setup.png)
+
+We choose `yes`, and your device will be rebooted.
+Open Magisk application again and click in Install button
+![walking]({{ site.baseurl }}/assets/images/android-studio/reboot-magisk-app-install-magisk.png)
+
+Choose Direct install, and Tap on Let's go
+![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-direct-install.png)
+
+Tap on Reboot
+![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-tap-reboot.png)
+
+Open Root Check app, And Choose Grant button  when be asked Grant or Deny access permission as a root user.
+![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-grant-permission.png)
+
+And now, you can see your device has the status: Rooted.
+![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-rooted-device.png)
