@@ -27,7 +27,16 @@ To install ADB command, we need to install `Android Platform-Tools` via `HomeBre
 brew install --cask android-platform-tools
 ```
 ![walking]({{ site.baseurl }}/assets/images/setup-macosx/install-android-platform-tool.png)
-
+You can check whether your device was installed and set up ADB command successfully or not by this command.
+```shell
+adb device
+```
+Response might be: (Due to I opened an Emulator in my Macbook)
+```shell
+adb devices
+List of devices attached
+emulator-5554	device
+```
 ## Some basic commands with ADB command
 1. `adb devices`: Check if your device is connected and recognized.
 2. `adb install <path/to/apk>`: Install an APK file. You should input the package name of application that you want to install.
