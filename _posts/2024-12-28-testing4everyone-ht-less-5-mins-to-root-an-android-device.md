@@ -48,7 +48,7 @@ remote: Total 563 (delta 31), reused 21 (delta 12), pack-reused 513 (from 1)
 Receiving objects: 100% (563/563), 72.46 MiB | 23.04 MiB/s, done.
 Resolving deltas: 100% (343/343), done.
 ```
-## Run ADV script
+## Step 2 - Run ADV script to list all AVDs
 - Open rootAVD folder, and run rootAVD script.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-avd-folder.png)
 - Run rootAvd script to listAllAVDs
@@ -88,6 +88,7 @@ We will receive the list of available AVD, such as:
 ./rootAVD.sh system-images/android-34/google_apis_playstore/arm64-v8a/ramdisk.img InstallPrebuiltKernelModules GetUSBHPmodZ PATCHFSTAB DEBUG
 ./rootAVD.sh system-images/android-34/google_apis_playstore/arm64-v8a/ramdisk.img AddRCscripts
 ```
+## Step 3 - Choose the proper AVD for your device 
 You should check your device version to choose the proper version
 ![walking]({{ site.baseurl }}/assets/images/android-studio/choose-avd-version.png)
 
@@ -95,7 +96,7 @@ I am using an Android device with SDK 34 so that I run this command:
 ```shell
 ./rootAVD.sh system-images/android-34/google_apis_playstore/arm64-v8a/ramdisk.img
 ```
-
+## Step 4 - Cold Boot your device
 Your android devices will be shutdown automatically.
 Then, we need to `cold boot` for our Android device.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/cold-boot-emulator-android-device.png)
@@ -106,7 +107,7 @@ You can dismiss the notification on your device during the cold boot.
 
 Magisk application should be installed successfully in your android device.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/magisk-app.png)
-
+## Step 5 - Open Magisk and Install the additional software
 Open Magisk, We will be asked to install some additional set-up.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-requires-additional-setup.png)
 
@@ -119,7 +120,7 @@ Choose Direct install, and Tap on Let's go
 
 Tap on Reboot
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-tap-reboot.png)
-
+## Step 6 - Open Root Check app and grant the permission
 Open Root Check app, And Choose Grant button  when be asked Grant or Deny access permission as a root user.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-grant-permission.png)
 
