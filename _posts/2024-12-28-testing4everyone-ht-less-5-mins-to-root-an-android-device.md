@@ -117,6 +117,7 @@ Open Magisk, We will be asked to install some additional set-up.
 
 We choose `yes`, and your device will be rebooted.
 Open Magisk application again and click in Install button
+
 ![walking]({{ site.baseurl }}/assets/images/android-studio/reboot-magisk-app-install-magisk.png)
 
 Choose `Direct install`, and Tap on `Let's go`
