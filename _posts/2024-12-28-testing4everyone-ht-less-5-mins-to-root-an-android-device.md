@@ -25,11 +25,15 @@ Rooted devices, which often have altered default configurations, are considered 
 Utilizing a rooted device can facilitate testing in this specific test scenario.
 # How to check a device is rooted or not ?
 Root check app in Android device
-Link: https://play.google.com/store/apps/details?id=com.jrummyapps.rootchecker&hl=en
+Link:[Here](https://play.google.com/store/apps/details?id=com.jrummyapps.rootchecker&hl=en)
+
 Or Searching: Root app in Google Store.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/android-device-check-root.png)
+
 Root checker in Home screen
+
 ![walking]({{ site.baseurl }}/assets/images/android-studio/android-device-check-root-home-screen.png)
+
 ![walking]({{ site.baseurl }}/assets/images/android-studio/android-device-not-rooted.png)
 # How to root an Android device ?
 We use RootAVD to root an Android device: https://gitlab.com/newbit/rootAVD
@@ -115,11 +119,14 @@ We choose `yes`, and your device will be rebooted.
 Open Magisk application again and click in Install button
 ![walking]({{ site.baseurl }}/assets/images/android-studio/reboot-magisk-app-install-magisk.png)
 
-Choose Direct install, and Tap on Let's go
+Choose `Direct install`, and Tap on `Let's go`
+
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-direct-install.png)
 
 Tap on Reboot
+
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-tap-reboot.png)
+
 ## Step 6 - Open Root Check app and grant the permission
 Open Root Check app, And Choose Grant button  when be asked Grant or Deny access permission as a root user.
 ![walking]({{ site.baseurl }}/assets/images/android-studio/root-check-app-grant-permission.png)
