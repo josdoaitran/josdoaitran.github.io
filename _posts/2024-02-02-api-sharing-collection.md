@@ -57,8 +57,21 @@ What I shared about API Postman tool in Testing4Everyone channels in Vietnamese 
 - **Postman Proxy:** [https://learning.postman.com/docs/getting-started/installation/proxy/](https://learning.postman.com/docs/getting-started/installation/proxy/)
 - **Postman virtualization:** [https://www.postman.com/reshmidxc/workspace/service-virtualization/overview](https://www.postman.com/reshmidxc/workspace/service-virtualization/overview)
 - **Postman with Development tools chain**: [https://learning.postman.com/docs/developer/postman-api/intro-api/](https://learning.postman.com/docs/developer/postman-api/intro-api/)
-
-## Performance Test with Postman**
+## Sites for API Practice
+- https://restful-booker.herokuapp.com/apidoc/index.html
+- https://gorest.co.in
+- http://httpbin.org/#/
+- https://calendarific.com/api-documentation
+- https://pokeapi.co/
+- https://reqbin.com/
+- https://bookcart.azurewebsites.net/swagger/index.html
+- http://dummy.restapiexample.com/
+- http://www.omdbapi.com/
+- https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
+- https://reqres.in/
+- https://resttesttest.com/
+- https://practice.expandtesting.com/notes/api/api-docs/
+## Performance Test with Postman
 [https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/)
 
 # References:
