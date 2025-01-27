@@ -55,7 +55,6 @@ The JSR223 Preprocessor in JMeter is used when you need to execute custom script
 
 1.	Dynamic Request Preparation:
 - When you need to dynamically modify or generate request data before it is sent to the server.
-
 - Example: Generating a unique token, calculating a checksum, or encrypting a value for use in the request.
 
 2.	Custom Logic for Preprocessing:
@@ -128,11 +127,14 @@ def randomEmail = "${randomString}@${emailDomain}"
 vars.put("randomEmail", randomEmail)
 log.info("Generated Random Email: ${randomEmail}")
 ```
+
 ## PostProcessor in JMeter
+
 - A "postprocessor" executes actions after a sampler request is received, enabling you to process the response data, like extracting specific values from it;
 - And postprocessors happen after a response is received.
 
 ### Example Postprocessor - JSON extractor
+
 The JSON Extractor PostProcessor in JMeter is used to extract specific values or elements from a JSON response after a request is executed. 
 This is particularly useful when working with APIs that return data in JSON format, as it allows you to retrieve dynamic values (like session IDs, tokens, or user data) for further use in your test.
 We have the question: `When we should use Postprocessor - JSON extractor in JMeter?`
