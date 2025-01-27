@@ -36,15 +36,16 @@ Suppose you’re testing a login API for 10 users. Each user should have a uniqu
 1.	Add a Thread Group with 10 threads.
 2.	Add the User Parameters Preprocessor:
 - Set variables:
-- username: user_${__threadNum}
-- password: pass_${__threadNum}
-3.	Use ${username} and ${password} in your HTTP Request.
+- username: `user_${__threadNum}`
+- password: `pass_${__threadNum}`
+3. Use `${username}` and `${password}` in your HTTP Request.
 By using the User Parameters Preprocessor, each thread will have a unique set of values for username and password.
 - Update the variable in sampler request to configuration
 ![](https://i.ibb.co/6snCgYc/user-parameters-in-sampler-request.jpg)
 
 ### Example Preprocessor - JSR223 Preprocessor
-The JSR223 Preprocessor in JMeter is used when you need to execute custom scripting or logic before a sampler is executed. It provides powerful customization capabilities for test scenarios that go beyond the standard JMeter components. You can write scripts in supported languages like Groovy, JavaScript, Jython, or Beanshell, with Groovy being the most commonly used due to its efficiency and performance.
+The JSR223 Preprocessor in JMeter is used when you need to execute custom scripting or logic before a sampler is executed. It provides powerful customization capabilities for test scenarios that go beyond the standard JMeter components. You can write scripts in supported languages like `Groovy`, `JavaScript`, `Jython`, or `Beanshell`, with `Groovy` being the most commonly used due to its efficiency and performance.
+
 `When we should use JSR223 Preprocessor in JMeter?`
 #### 1.	Dynamic Request Preparation:
 •	When you need to dynamically modify or generate request data before it is sent to the server.
