@@ -42,6 +42,7 @@ Suppose you’re testing a login API for 10 users. Each user should have a uniqu
 By using the User Parameters Preprocessor, each thread will have a unique set of values for username and password.
 - Update the variable in sampler request to configuration
 ![](https://i.ibb.co/6snCgYc/user-parameters-in-sampler-request.jpg)
+
 ### Example Preprocessor - JSR223 Preprocessor
 The JSR223 Preprocessor in JMeter is used when you need to execute custom scripting or logic before a sampler is executed. It provides powerful customization capabilities for test scenarios that go beyond the standard JMeter components. You can write scripts in supported languages like Groovy, JavaScript, Jython, or Beanshell, with Groovy being the most commonly used due to its efficiency and performance.
 `When we should use JSR223 Preprocessor in JMeter?`
@@ -69,7 +70,46 @@ The JSR223 Preprocessor in JMeter is used when you need to execute custom script
 
 - An example JSR223 to generate Dynamic data
 ![](https://i.ibb.co/nRMqLvb/example-jsr-preprocessor-generate-dynamic-data.jpg)
-
+- Thank to JSR223 Preprocessor, we can write a scrip to populate the data of a field before we trigger the request.
+#### Some example script that we can use JSR223 Preprocessor
+- Generating Dynamic Data for the Request
+```groovy
+// Generate a unique timestamp
+def timestamp = System.currentTimeMillis()
+vars.put("timestamp", timestamp.toString())
+```
+- Adding a Custom Header with an Encrypted Token
+```groovy
+import java.util.Base64
+String username = "user1"
+String password = "pass123"
+String token = Base64.getEncoder().encodeToString((username + ":" + password).getBytes())
+sampler.addNonEncodedArgument("", "", "")
+sampler.getHeaderManager().add("Authorization", "Basic " + token)
+```
+- Modifying the Request Body
+```groovy
+String requestBody = vars.get("originalBody")
+String updatedBody = requestBody.replace("PLACEHOLDER", "newValue")
+vars.put("updatedBody", updatedBody)
+```
+Use ${updatedBody} in your HTTP Request.
+- Correlation: Extract and Use Data
+```groovy
+String response = prev.getResponseDataAsString()
+String token = response.find(/"token":"(.*?)"/)[1]
+vars.put("token", token) 
+```
+Use ${token} in the next request.
+- Generate the random email
+```groovy
+def allowedChars = ('a'..'z') + ('0'..'9')
+def randomString = (1..8).collect { allowedChars[new Random().nextInt(allowedChars.size())] }.join()
+def emailDomain = "example.com"
+def randomEmail = "${randomString}@${emailDomain}"
+vars.put("randomEmail", randomEmail)
+log.info("Generated Random Email: ${randomEmail}")
+```
 ## PostProcessor in JMeter
 - A "postprocessor" executes actions after a sampler request is received, enabling you to process the response data, like extracting specific values from it;
 - And postprocessors happen after a response is received.
