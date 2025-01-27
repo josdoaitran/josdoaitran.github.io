@@ -114,3 +114,61 @@ log.info("Generated Random Email: ${randomEmail}")
 ## PostProcessor in JMeter
 - A "postprocessor" executes actions after a sampler request is received, enabling you to process the response data, like extracting specific values from it;
 - And postprocessors happen after a response is received.
+
+### Example Postprocessor - JSON extractor
+The JSON Extractor PostProcessor in JMeter is used to extract specific values or elements from a JSON response after a request is executed. 
+This is particularly useful when working with APIs that return data in JSON format, as it allows you to retrieve dynamic values (like session IDs, tokens, or user data) for further use in your test.
+We have the question: `When we should use Postprocessor - JSON extractor in JMeter?`
+
+1.	Extracting Values from JSON Responses:
+•	To extract dynamic values like tokens, session IDs, or any field values from an API’s JSON response.
+2.	Chaining API Requests:
+•	To pass the extracted value (e.g., an id or token) from one request to another.
+3.	Dynamic Test Data:
+•	When testing APIs that return unique or user-specific data, you can extract these values dynamically.
+4.	Validation or Assertions:
+•	You can use extracted values for assertions to validate specific conditions (e.g., status codes or specific field values).
+#### Example scenario:
+- We have 2 sampler request
+- 1st request to login and receive the response, it contains the token value.
+- 2nd request will be based on the token value of 1st request to get the user-info.
+
+![](https://i.ibb.co/Qp7dVCR/example-json-extractor-postprocessor.jpg)
+
+#### Fields in Json Extractor in JMeter provides us:
+- **Name of created variable**: The variable name that will store the extracted value(s). Example: `token`, `userId`.
+- **JSON Path expressions**: The JSON path to extract the desired value. Example: `$.token`, `$.data.id`.
+- **Match No**: Defines which match to return if there are multiple matches:  0 for all, 1 for the first match, etc.
+- **Default Value**: The value to use if no match is found. Example: NOT_FOUND.
+
+#### JSON Path Syntax Overview
+It works as Expression
+- `$.field`: Extracts the value of a specific field.
+- `$.field.subfield`: Extracts a nested field value.
+- `$..field`: Extracts all matching fields at any level.
+- `$.field[*].subfield`: Extracts a subfield from all items in an array.
+
+Example: We have the Sample JSON Response from the 1st request.
+```json
+{
+  "status": "success",
+  "data": {
+    "userId": 12345,
+    "token": "abc123xyz",
+    "roles": ["admin", "editor"]
+  }
+}
+```
+Configuration:
+- Variable Names: userId, token, roles
+- JSON Path Expressions:
+- $.data.userId → Extracts 12345.
+- $.data.token → Extracts abc123xyz.
+- $.data.roles[0] → Extracts admin.
+
+Result:
+- ${userId} → 12345
+- ${token} → abc123xyz
+- ${roles} → admin
+
+### Example Postprocessor - JSR223 PostProcessor
