@@ -47,23 +47,29 @@ By using the User Parameters Preprocessor, each thread will have a unique set of
 The JSR223 Preprocessor in JMeter is used when you need to execute custom scripting or logic before a sampler is executed. It provides powerful customization capabilities for test scenarios that go beyond the standard JMeter components. You can write scripts in supported languages like `Groovy`, `JavaScript`, `Jython`, or `Beanshell`, with `Groovy` being the most commonly used due to its efficiency and performance.
 
 `When we should use JSR223 Preprocessor in JMeter?`
-#### 1.	Dynamic Request Preparation:
+
+1.	Dynamic Request Preparation:
 - When you need to dynamically modify or generate request data before it is sent to the server.
 
 - Example: Generating a unique token, calculating a checksum, or encrypting a value for use in the request.
-#### 2.	Custom Logic for Preprocessing:
+
+2.	Custom Logic for Preprocessing:
 - When you need to execute custom logic or transformations that aren’t natively supported by JMeter components.
 - Example: Reformatting JSON or XML data before sending it.
-#### 3.	Correlation:
+
+3.	Correlation:
 - Extracting or manipulating data from previous responses to use in the current sampler’s request.
 - Example: Using a session ID or dynamic token retrieved from a prior request.
+
 #### 4.	Advanced Parameterization:
 - When you need to generate complex or computed test data that cannot be easily managed using CSV Data Set Config or User Parameters.
 - Example: Generating a timestamp, hashing a value (e.g., MD5, SHA-256), or creating a random string with specific rules.
-#### 5.	Condition-Based Execution:
+
+5.	Condition-Based Execution:
 - When certain preprocessing actions are required only under specific conditions.
 - Example: Setting specific headers based on the thread number or previous response values.
-#### 6.	Performance Optimization:
+
+6.	Performance Optimization:
 - Groovy in JSR223 Preprocessors is faster than other scripting options (e.g., Beanshell or JavaScript), making it suitable for performance-critical operations.
 
 #### How to add a JSR223 Preprocessor
@@ -73,13 +79,16 @@ The JSR223 Preprocessor in JMeter is used when you need to execute custom script
 - An example JSR223 to generate Dynamic data
 ![](https://i.ibb.co/nRMqLvb/example-jsr-preprocessor-generate-dynamic-data.jpg)
 - Thank to JSR223 Preprocessor, we can write a scrip to populate the data of a field before we trigger the request.
+
 #### Some example script that we can use JSR223 Preprocessor
+
 - Generating Dynamic Data for the Request
 ```groovy
 // Generate a unique timestamp
 def timestamp = System.currentTimeMillis()
 vars.put("timestamp", timestamp.toString())
 ```
+
 - Adding a Custom Header with an Encrypted Token
 ```groovy
 import java.util.Base64
@@ -89,6 +98,7 @@ String token = Base64.getEncoder().encodeToString((username + ":" + password).ge
 sampler.addNonEncodedArgument("", "", "")
 sampler.getHeaderManager().add("Authorization", "Basic " + token)
 ```
+
 - Modifying the Request Body
 ```groovy
 String requestBody = vars.get("originalBody")
@@ -96,6 +106,7 @@ String updatedBody = requestBody.replace("PLACEHOLDER", "newValue")
 vars.put("updatedBody", updatedBody)
 ```
 Use ${updatedBody} in your HTTP Request.
+
 - Correlation: Extract and Use Data
 ```groovy
 String response = prev.getResponseDataAsString()
@@ -123,13 +134,18 @@ We have the question: `When we should use Postprocessor - JSON extractor in JMet
 
 1.	Extracting Values from JSON Responses:
 To extract dynamic values like tokens, session IDs, or any field values from an API’s JSON response.
+
 2.	Chaining API Requests:
 To pass the extracted value (e.g., an id or token) from one request to another.
+
 3.	Dynamic Test Data:
 When testing APIs that return unique or user-specific data, you can extract these values dynamically.
+
 4.	Validation or Assertions:
 You can use extracted values for assertions to validate specific conditions (e.g., status codes or specific field values).
+
 #### Example scenario:
+
 - We have 2 sampler request
 - 1st request to login and receive the response, it contains the token value.
 - 2nd request will be based on the token value of 1st request to get the user-info.
@@ -137,12 +153,14 @@ You can use extracted values for assertions to validate specific conditions (e.g
 ![](https://i.ibb.co/Qp7dVCR/example-json-extractor-postprocessor.jpg)
 
 #### Fields in Json Extractor in JMeter provides us:
+
 - **Name of created variable**: The variable name that will store the extracted value(s). Example: `token`, `userId`.
 - **JSON Path expressions**: The JSON path to extract the desired value. Example: `$.token`, `$.data.id`.
 - **Match No**: Defines which match to return if there are multiple matches:  0 for all, 1 for the first match, etc.
 - **Default Value**: The value to use if no match is found. Example: NOT_FOUND.
 
 #### JSON Path Syntax Overview
+
 It works as Expression
 - `$.field`: Extracts the value of a specific field.
 - `$.field.subfield`: Extracts a nested field value.
@@ -150,6 +168,7 @@ It works as Expression
 - `$.field[*].subfield`: Extracts a subfield from all items in an array.
 
 Example: We have the Sample JSON Response from the 1st request.
+
 ```json
 {
   "status": "success",
@@ -160,6 +179,7 @@ Example: We have the Sample JSON Response from the 1st request.
   }
 }
 ```
+
 Configuration:
 - Variable Names: userId, token, roles
 - JSON Path Expressions:
@@ -189,11 +209,13 @@ We have the question: `When we should use Postprocessor - JSR223 PostProcessor i
 3. Data Preparation for Further Use:
 - When you need to process or format data extracted from the response for use in subsequent requests.
 - Example: Encrypting a value, formatting a timestamp, or concatenating multiple extracted values.
+
 4. Custom Validations and Assertions:
 - When you want to verify specific aspects of the response and set a pass/fail status for the sampler based on custom conditions.
 - Example: Checking if a certain value in the response meets a specific threshold.
 
 #### Example use-case with JSR Postprocessor
+
 1. Extracting Multiple Values from JSON:
 If the response is complex and the JSON Extractor can’t handle it:
 ```groovy
@@ -207,6 +229,7 @@ def userId = json.data.userId
 vars.put("token", token)
 vars.put("userId", userId)
 ```
+
 2. Setting Custom Assertions
 ```groovy
 def response = prev.getResponseDataAsString()
@@ -218,6 +241,7 @@ if (!response.contains("expectedValue")) {
 
 3. Extracting Data from HTML Response:
 If the response contains HTML and you need to extract a specific value:
+
 ```groovy
 def response = prev.getResponseDataAsString()
 def matcher = response =~ /<input name="csrfToken" value="(.*?)">/
@@ -225,6 +249,7 @@ if (matcher.find()) {
     vars.put("csrfToken", matcher.group(1))
 } 
 ```
+
 4. Logging for Debugging:
 ```groovy
 log.info("Response: " + prev.getResponseDataAsString())
