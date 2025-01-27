@@ -43,7 +43,32 @@ By using the User Parameters Preprocessor, each thread will have a unique set of
 - Update the variable in sampler request to configuration
 ![](https://i.ibb.co/6snCgYc/user-parameters-in-sampler-request.jpg)
 ### Example Preprocessor - JSR223 Preprocessor
+The JSR223 Preprocessor in JMeter is used when you need to execute custom scripting or logic before a sampler is executed. It provides powerful customization capabilities for test scenarios that go beyond the standard JMeter components. You can write scripts in supported languages like Groovy, JavaScript, Jython, or Beanshell, with Groovy being the most commonly used due to its efficiency and performance.
+`When we should use JSR223 Preprocessor in JMeter?`
+#### 1.	Dynamic Request Preparation:
+•	When you need to dynamically modify or generate request data before it is sent to the server.
+•	Example: Generating a unique token, calculating a checksum, or encrypting a value for use in the request.
+#### 2.	Custom Logic for Preprocessing:
+•	When you need to execute custom logic or transformations that aren’t natively supported by JMeter components.
+•	Example: Reformatting JSON or XML data before sending it.
+#### 3.	Correlation:
+•	Extracting or manipulating data from previous responses to use in the current sampler’s request.
+•	Example: Using a session ID or dynamic token retrieved from a prior request.
+#### 4.	Advanced Parameterization:
+•	When you need to generate complex or computed test data that cannot be easily managed using CSV Data Set Config or User Parameters.
+•	Example: Generating a timestamp, hashing a value (e.g., MD5, SHA-256), or creating a random string with specific rules.
+#### 5.	Condition-Based Execution:
+•	When certain preprocessing actions are required only under specific conditions.
+•	Example: Setting specific headers based on the thread number or previous response values.
+#### 6.	Performance Optimization:
+•	Groovy in JSR223 Preprocessors is faster than other scripting options (e.g., Beanshell or JavaScript), making it suitable for performance-critical operations.
 
+#### How to add a JSR223 Preprocessor
+- As below image, we can add a JSR223 Preprocessor.
+![](https://i.ibb.co/tJkxq9c/jsr223-add-jsr-preprofessor.jpg)
+
+- An example JSR223 to generate Dynamic data
+![](https://i.ibb.co/nRMqLvb/example-jsr-preprocessor-generate-dynamic-data.jpg)
 
 ## PostProcessor in JMeter
 - A "postprocessor" executes actions after a sampler request is received, enabling you to process the response data, like extracting specific values from it;
