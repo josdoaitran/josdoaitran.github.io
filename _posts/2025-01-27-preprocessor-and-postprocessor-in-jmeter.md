@@ -28,7 +28,19 @@ We have the question: `When we should use User parameters in JMeter?`
 ### Adding an User parameter
 - As below image, we can add an User parameter.
 ![](https://i.ibb.co/FDDxG0P/preprocessor-adding-user-parameters.jpg)
+- An User parameters
+![](https://i.ibb.co/tXj5cDZ/user-parameters-example.jpg)
 - 
+### Example Use Case:
+Suppose you’re testing a login API for 10 users. Each user should have a unique username and password.
+1.	Add a Thread Group with 10 threads.
+2.	Add the User Parameters Preprocessor:
+•	Set variables:
+•	username: user_${__threadNum}
+•	password: pass_${__threadNum}
+3.	Use ${username} and ${password} in your HTTP Request.
+
+By using the User Parameters Preprocessor, each thread will have a unique set of values for username and password.
 
 
 ### Example Preprocessor - JSR223 Preprocessor
