@@ -11,20 +11,25 @@ In the real scenarios, there are many cases which require us to do some pre-cond
 
 ## Preprocessor in JMeter
 - A "preprocessor" is an element that executes actions before a sampler request is sent, allowing you to modify request settings or update variables prior to sending the request.
+
 - Preprocessors happen before a request is made
 
 ### Example Preprocessor - User Parameters 
 We have the question: `When we should use User parameters in JMeter?` 
+
 #### User parameters could be considered as a Dynamic Data Assignment:
-•	When each thread in your test requires unique data (e.g., usernames, passwords, or other test parameters).
-•	For example, if you’re simulating multiple users logging into a system, you can assign a unique username and password to each thread.
+- When each thread in your test requires unique data (e.g., usernames, passwords, or other test parameters).
+- For example, if you’re simulating multiple users logging into a system, you can assign a unique username and password to each thread.
+
 #### User parameters could be considered as a data collections 
 - You use this preprocessor when the variables need to be initialized or updated before the sampler runs. For example, if your HTTP request depends on variables set in the User Parameters.
 - When you want to parameterize your test without using CSV Data Set Config.
 - For instance, you can define variables directly within the User Parameters, eliminating the need for external files.
+
 #### User parameters could be used as Testing Unique Scenarios:
 - When testing scenarios like account creation or user-specific data updates where each thread needs a unique identifier.
 - Each sample request should used an unique data.
+
 #### How to add an User parameter
 - As below image, we can add an User parameter.
 ![](https://i.ibb.co/FDDxG0P/preprocessor-adding-user-parameters.jpg)
@@ -61,7 +66,7 @@ The JSR223 Preprocessor in JMeter is used when you need to execute custom script
 - Extracting or manipulating data from previous responses to use in the current sampler’s request.
 - Example: Using a session ID or dynamic token retrieved from a prior request.
 
-#### 4.	Advanced Parameterization:
+4.	Advanced Parameterization:
 - When you need to generate complex or computed test data that cannot be easily managed using CSV Data Set Config or User Parameters.
 - Example: Generating a timestamp, hashing a value (e.g., MD5, SHA-256), or creating a random string with specific rules.
 
@@ -231,6 +236,7 @@ vars.put("userId", userId)
 ```
 
 2. Setting Custom Assertions
+
 ```groovy
 def response = prev.getResponseDataAsString()
 if (!response.contains("expectedValue")) {
@@ -240,6 +246,7 @@ if (!response.contains("expectedValue")) {
 ```
 
 3. Extracting Data from HTML Response:
+
 If the response contains HTML and you need to extract a specific value:
 
 ```groovy
