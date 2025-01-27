@@ -7,13 +7,10 @@ image: assets/images/performance-testing/performance-test-client-view-server-vie
 ---
 
 # Situational Cases
-In the real scenarios, there are many cases which require us to do some pre-condition or tear-down steps in each request or sampler in JMeter.  
-
-They are aka: Preprocessor and Postprocessor in JMeter.
+In the real scenarios, there are many cases which require us to do some pre-condition or tear-down steps in each request or sampler in JMeter. They are aka: Preprocessor and Postprocessor in JMeter.
 
 ## Preprocessor in JMeter
 - A "preprocessor" is an element that executes actions before a sampler request is sent, allowing you to modify request settings or update variables prior to sending the request.
-
 - Preprocessors happen before a request is made
 
 ## PostProcessor in JMeter
