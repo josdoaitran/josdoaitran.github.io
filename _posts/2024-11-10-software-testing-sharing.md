@@ -3,7 +3,7 @@ layout: post
 title:  "Software Testing Sharing"
 author: donald
 categories: [ sharing, collection ]
-image: assets/images/software-testing-general/Software-Testing-Tools.jpg
+image: assets/images/software-testing-general/software-testing-tools.jpg
 ---
 
 In this page, I collected all my posts and videos I shared on Testing4Everyone youtube channels about Software Testing from Beginner level to Advanced levels.
