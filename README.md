@@ -1,51 +1,43 @@
-# Jekyll Theme - Mundana by WowThemes.net
+# About Jekyll
+https://jekyllrb.com/
+# Install Jekyll
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
+Run this command:
+```
+A new release of RubyGems is available: 3.5.18 → 3.5.22!
+Run `gem update --system 3.5.22` to update your installation.
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
-
-### Documentation
-
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
-
-### Contribute to Mundana repository
-
-1. In the top-right corner of this page, click **Fork**.
-
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
-
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
-
-3. **Create a branch**: 
-
-   `git checkout -b <my-new-feature-or-fix>`
-
-4. **Make necessary changes and commit those changes**:
-
-   `git add .`
-
-   `git commit -m "new feature or fix"`
-
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
-
-   `git push origin <add-your-branch-name>`
-
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
-
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+❯ sudo gem install bundler jekyll
+Successfully installed bundler-2.5.22
+Parsing documentation for bundler-2.5.22
+Done installing documentation for bundler after 0 seconds
+Successfully installed jekyll-4.3.4
+Parsing documentation for jekyll-4.3.4
+Done installing documentation for jekyll after 0 seconds
+2 gems installed
+```
 
 
-### Copyright
+# Install Ruby
 
-Copyright (C) 2019 WowThemes.net.
+```json
+❯ ruby -v
+ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin23]
+❯ echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+❯ export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+❯ export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+❯ ruby -v
+ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [arm64-darwin23]
+```
 
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
+# Start app local
+Run this command
+```
+sudo bundle install
+```
+run this command:
+```
+bundle exec jekyll serve
+```
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Live Demo
-
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+Access to local page: Server address: http://127.0.0.1:4000/
