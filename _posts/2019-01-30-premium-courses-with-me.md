@@ -22,10 +22,10 @@ Doai Tran - Quality Architect Engineer
 Everything about software testing
 
 - **Email**: [josdoaitran@gmail.com](mailto:josdoaitran@gmail.com), [doai.tran@outlook.com](mailto:doai.tran@outlook.com)
-- **Facebook**: https://www.facebook.com/profile.php?id=61558509897133
-- **Youtube**: https://www.youtube.com/@testing4everyone
+- **Facebook**: [https://www.facebook.com/profile.php?id=61558509897133](https://www.facebook.com/profile.php?id=61558509897133)
+- **Youtube**: [https://www.youtube.com/@testing4everyone](https://www.facebook.com/profile.php?id=61558509897133)
 
 ## Support me
-- Buy me a coffee
-- Payment:
+- Buy me a coffee: [https://buymeacoffee.com/josdoaitran](https://buymeacoffee.com/josdoaitran)
+- Payment information
 ![breaking]({{ site.baseurl }}/assets/images/general-sharing/bank-info.jpeg)
