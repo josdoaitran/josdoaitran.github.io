@@ -22,3 +22,8 @@ In summary, DeepSeek represents a significant advancement in AI development, off
 ## DeepSeek v3
 - 
 - DeepSeek release R3 in Github: [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+
+# Ask DeepSeek some questions about Software testing
+
+## Compare with ChatGpt (OpenAI) and Gemini (GoogleAI)
+We try to ask ChatGPT, Gemini and DeepSeek the same questions to be easy to collect the information that they give to us. 
