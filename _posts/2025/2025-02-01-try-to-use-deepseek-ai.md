@@ -34,6 +34,15 @@ We can use this link to access to Deepseek: https://www.deepseek.com/. and use D
 
 I signed up for a Deeplink account using _a separate Google account_ that is not secure to protect my personal information.   
 
+## Ask Deep Link some question about software testing
+- Question about software testing fundamental: 
+
+- Question about testing design test cases:
+
+- Question about automation testing for web application with Playwright and NodeJS
+
+- Question about performance testing for a socket system
+
 
 ## Compare with ChatGpt (OpenAI) and Gemini (GoogleAI)
 We try to ask ChatGPT, Gemini, and DeepSeek the same questions to make it easier to collect the information they provide to us. Then, we can have enough information to compare them.
