@@ -32,6 +32,9 @@ We can use this link to access to Deepseek: https://www.deepseek.com/. and use D
 
 ![](https://dp-cdn-deepseek.obs.cn-east-3.myhuaweicloud.com/api-docs/ds_v3_tps_en.gif)
 
+I signed up for a Deeplink account using _a separate Google account_ that is not secure to protect my personal information.   
+
+
 ## Compare with ChatGpt (OpenAI) and Gemini (GoogleAI)
 We try to ask ChatGPT, Gemini, and DeepSeek the same questions to make it easier to collect the information they provide to us. Then, we can have enough information to compare them.
 
