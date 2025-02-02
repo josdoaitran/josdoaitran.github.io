@@ -19,11 +19,28 @@ The emergence of DeepSeek has had a significant impact on the global tech indust
 Despite its impressive capabilities, DeepSeek-R1 has limitations, particularly in handling politically sensitive topics. For example, it avoids discussions on events like the 1989 Tiananmen Square massacre and issues related to Taiwan's political status. Additionally, there are concerns about data privacy, as the AI system's terms indicate that user data may be stored on servers located in China, potentially subjecting it to government surveillance.
 
 In summary, DeepSeek represents a significant advancement in AI development, offering powerful and cost-effective models. However, potential users should carefully consider the associated data security and censorship concerns before integrating DeepSeek's technology into their operations.
+
 ## DeepSeek v3
-- 
+- About DeepSeek v3 official: https://api-docs.deepseek.com/news/news1226
 - DeepSeek release R3 in Github: [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 
 # Ask DeepSeek some questions about Software testing
 
+## Get started
+We can use this link to access to Deepseek: https://www.deepseek.com/. and use Deepseek via Web app or Desktop app
+![](https://lifehacker.com/imagery/articles/01JJPV8GYX4DGR2M4M98BFPJ3W/hero-image.fill.size_1248x702.v1738089206.jpg)
+
+![](https://dp-cdn-deepseek.obs.cn-east-3.myhuaweicloud.com/api-docs/ds_v3_tps_en.gif)
+
 ## Compare with ChatGpt (OpenAI) and Gemini (GoogleAI)
-We try to ask ChatGPT, Gemini and DeepSeek the same questions to be easy to collect the information that they give to us. 
+We try to ask ChatGPT, Gemini, and DeepSeek the same questions to make it easier to collect the information they provide to us. Then, we can have enough information to compare them.
+
+
+## Other views (Security and sensitive data) about DeepSeek
+Refer to: https://lifehacker.com/tech/how-to-try-deepseek-ai-and-why-you-might-not-want-to
+- Data privacy terms: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
+Deepseek can collect and gather their customer's information.
+Keep in your mind, your session with any AI model is not protected and private.
+  https://lifehacker.com/tech/your-conversations-with-chatbots-are-not-private
+- Some topics are censored than other AI chatbot.
+- Deepseek stores your data in China ?
