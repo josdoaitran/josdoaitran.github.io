@@ -225,6 +225,7 @@ We have the question: `When we should use Postprocessor - JSR223 PostProcessor i
 
 1. Extracting Multiple Values from JSON:
 If the response is complex and the JSON Extractor can’t handle it:
+
 ```groovy
 import groovy.json.JsonSlurper
 
@@ -248,7 +249,6 @@ if (!response.contains("expectedValue")) {
 ```
 
 3. Extracting Data from HTML Response:
-
 If the response contains HTML and you need to extract a specific value:
 
 ```groovy
@@ -260,6 +260,7 @@ if (matcher.find()) {
 ```
 
 4. Logging for Debugging:
+
 ```groovy
 log.info("Response: " + prev.getResponseDataAsString())
 log.info("Response Time: " + prev.getTime()) 
