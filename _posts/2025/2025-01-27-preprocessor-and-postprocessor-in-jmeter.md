@@ -223,7 +223,7 @@ We have the question: `When we should use Postprocessor - JSR223 PostProcessor i
 
 #### Example use-case with JSR Postprocessor
 
-1. Extracting Multiple Values from JSON:
+##### Example 1 - Extracting Multiple Values from JSON:
 If the response is complex and the JSON Extractor can’t handle it:
 
 ```groovy
@@ -238,7 +238,7 @@ vars.put("token", token)
 vars.put("userId", userId)
 ```
 
-2. Setting Custom Assertions
+##### Example 2 - Setting Custom Assertions
 
 ```groovy
 def response = prev.getResponseDataAsString()
@@ -248,7 +248,7 @@ if (!response.contains("expectedValue")) {
 }
 ```
 
-3. Extracting Data from HTML Response:
+##### Example 3 - Extracting Data from HTML Response:
 If the response contains HTML and you need to extract a specific value:
 
 ```groovy
@@ -259,7 +259,7 @@ if (matcher.find()) {
 } 
 ```
 
-4. Logging for Debugging:
+##### Example 4 - Logging for Debugging:
 
 ```groovy
 log.info("Response: " + prev.getResponseDataAsString())
