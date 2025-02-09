@@ -26,4 +26,27 @@ Following to these steps, to have the access permission and clone the resource c
 
 ![walking]({{ site.baseurl }}/assets/images/api-testing/source-code-premium-sharing-api-testing-service.png)
 
+## Run the simple service on your local machine
+
+- **Prerequisite**
+  - Install Python3
+  - Install Docker
+  - Install Pycharm or Visual Code (Editor tool to open my project source code)
+- **Run the services**
+
+I already drafted up the steps into docker environment via docker-compose.yml file.
+
+You don’t need to more steps to set-up and run the service
+
+![walking]({{ site.baseurl }}/assets/images/api-testing/guide-source-code-user-service.png)
+
+After you run docker-compose.yml successfully. You can access to service via: **http://127.0.0.1:5001**
+
+- The log of service
+
+You can access to the container of `user-service` to see the log of service as below:
+
+![walking]({{ site.baseurl }}/assets/images/api-testing/guide-run-user-service.png)
+
+Now, you can access to: http://localhost:5001
 
