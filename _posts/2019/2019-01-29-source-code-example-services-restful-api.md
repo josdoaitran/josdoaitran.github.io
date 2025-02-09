@@ -6,12 +6,9 @@ categories: [ source-code, document, testing4everyone ]
 image: assets/images/2.jpg
 tags: [premium]
 ---
-`gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
+# About
 
-`bundler` is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.
+In order to practice the essential knowledge about **API testing** (Including manual testing and automation testing). We need to have the example services.
+On [API Testing Sharing](https://www.notion.so/API-Testing-Sharing-3359bd1c24c64c24830bc1e74fc0127b?pvs=21) page, I already mention all free service for learn API testing. However, most of them are based on Mock-Data, it doesn’t mimic to real service in real project.
 
-The `Gemfile` and `Gemfile.lock` files inform `Bundler` about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit `bundle exec` and just `run jekyll serve`.
-
-When you run `bundle exec jekyll serve`, `Bundler` uses the gems and versions as specified in `Gemfile.lock` to ensure your Jekyll site builds with no compatibility or dependency conflicts.
-
-For more information about how to use `Bundler` in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.
+Therefore, I built up a simple API service for tutorial and practicing purpose, how it mimics to real services in functional view.
