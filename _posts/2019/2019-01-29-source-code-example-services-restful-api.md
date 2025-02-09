@@ -3,7 +3,7 @@ layout: post
 title:  "Source Code - Example Services Restful API for API Testing Course"
 author: donald
 categories: [ source-code, document, testing4everyone ]
-image: assets/images/2.jpg
+image: assets/images/api-testing/api-testing-premium.png
 tags: [premium]
 ---
 # About

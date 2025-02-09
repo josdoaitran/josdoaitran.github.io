@@ -3,7 +3,7 @@ layout: post
 title:  "Ikigai Concept"
 author: donald
 categories: [ sharing, mindset ]
-image: assets/images/4.jpg
+image: assets/images/general-sharing/bridge.jpg
 ---
 Ikigai is **a Japanese concept that means "reason for being**"
 Ikigai is a Japanese concept which translates to “a reason for being”. Knowing your ikigai is empowering; it allows you to find your path to fulfilment and gives guidance in times of aimlessness.
