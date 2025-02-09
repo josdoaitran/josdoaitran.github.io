@@ -13,4 +13,17 @@ On [API Testing Sharing](https://josdoaitran.github.io/api-sharing-collection/) 
 
 Therefore, I built up a simple API service for tutorial and practicing purpose, how it mimics to real services in functional view.
 
-![](./assets/images/api-testing/user-service-code-example.png)
+![walking]({{ site.baseurl }}/assets/images/api-testing/user-service-code-example.png)
+
+# How to access, clone the source code
+
+Following to these steps, to have the access permission and clone the resource code to run at your local machine
+
+- Contact me directly to purchase
+    - Input your information here: https://josdoaitran.github.io/contact.html
+    - Pricing: **99K** (VND) or 4 USD
+- Receive the invitation to access to source code.
+
+![walking]({{ site.baseurl }}/assets/images/api-testing/source-code-premium-sharing-api-testing-service.png)
+
+
