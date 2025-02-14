@@ -3,7 +3,7 @@ layout: post
 title:  "Premium Course - TestNG on Testing4Everyone"
 author: donald
 categories: [ software-testing, tutorial, testing4everyone, course]
-image: assets/images/software-testing-general/deeepseek-ai-for-testing.png
+image: assets/images/general-sharing/testng-logo.png
 tags: [premium]
 ---
 
