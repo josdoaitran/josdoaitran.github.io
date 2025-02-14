@@ -8,13 +8,13 @@ image: assets/images/general-sharing/testng-logo.png
 
 Creating and using custom annotations in TestNG involves several steps. You need to define your custom annotation, create an annotation processor, and then use the annotation in your tests. Below is an example of how to do this:
 
-1.**Define the Custom Annotation**: Create a custom annotation @CustomTest.
+*Define the Custom Annotation*
 
+Create a custom annotation @CustomTest.
 1. **Create an Annotation Processor**: Implement the logic that should be executed when the annotation is present.
 2. **Use the Custom Annotation in Tests**: Apply the annotation to your test methods and process it.
 
 Here’s a detailed step-by-step example:
-
 **Step 1: Define the Custom Annotation**
 
 Create a custom annotation called @CustomTest.
@@ -117,26 +117,22 @@ public class MyTests {
 
 **Explanation:**
 
-1.	**Define the Custom Annotation**:
+1.**Define the Custom Annotation**:
 
 •	The @Retention(RetentionPolicy.RUNTIME) ensures that the annotation is available at runtime.
-
 •	The @Target(ElementType.METHOD) specifies that this annotation can only be applied to methods.
 
-2.	**Create an Annotation Processor**:
+2.**Create an Annotation Processor**:
 
 •	The CustomAnnotationProcessor implements ITestListener to hook into the test lifecycle.
-
 •	The onTestStart method is overridden to check if the method has the @CustomTest annotation and print its value.
 
-3.	**Use the Custom Annotation in Tests**:
+3.**Use the Custom Annotation in Tests**:
 
 •	The @Listeners(CustomAnnotationProcessor.class) annotation tells TestNG to use the custom listener for the test class.
-
 •	The @CustomTest annotation is applied to test methods with specific values.
 
 **Running the Tests**
-
 When you run your TestNG tests, the output will show the custom annotation values:
 
 ```java

@@ -52,5 +52,5 @@ Example Source Code:
 
 # Additional Bonus
 We also wrote a post about TestNG and how we can implement the control function to customize an annotation in TestNG.
-
+[https://josdoaitran.github.io/how-to-customize-an-annotation-testng/](https://josdoaitran.github.io/how-to-customize-an-annotation-testng/)
 
