@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to use test data with  CSV file in JMeter"
+title:  "How to run Non-GUI mode of JMeter, Generating HTML report"
 author: donald
 categories: [ performance-test, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
