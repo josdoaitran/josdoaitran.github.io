@@ -5,10 +5,10 @@ categories: [ testing4everyone ]
 image: assets/images/general-sharing/doai-tran-home.png
 ---
 # 💫 About Me
-Hi 👋, I'm Donald. A passionate Quality engineer, Software Engineer. How we can become a good software engineer in test, assure the product quality when release to our customer<br>🔭 I’m currently working on TymeX<br><br>📝 I regularly write articles on https://doaitran.super.site/<br><br>💬 Ask me about Software testing, Testing automation framework builder, performance test, project management, project lead<br><br>📫 How to reach me doai.tran@outlook.com<br><br>⚡ Fun fact I think I am funny in consult our members to resolve their problems, overcome their challenges. In cloud, when I am reading a book.
+Hi 👋, I'm Donald. A passionate Quality engineer, Software Engineer. How we can become a good software engineer in test, assure the product quality when release to our customer<br>🔭 I’m currently working on TymeX<br><br>📝 I regularly write articles on [https://josdoaitran.github.io/](https://josdoaitran.github.io/)<br><br>💬 Ask me about Software testing, Testing automation framework builder, performance test, project management, project lead<br><br>📫 How to reach me doai.tran@outlook.com<br><br>⚡ Fun fact I think I am funny in consult our members to resolve their problems, overcome their challenges. In cloud, when I am reading a book.
 
 ## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/doai-tran-nguyen-van-b125b051/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://doaitran.super.site/) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@testing4everyone)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/doai-tran-nguyen-van-b125b051/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://josdoaitran.github.io/) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@testing4everyone)
 
 ## 🌐 My blogs
 ![walking]({{ site.baseurl }}/assets/images/general-sharing/doai-tran-home.png)
