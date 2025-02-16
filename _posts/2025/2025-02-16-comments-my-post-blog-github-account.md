@@ -9,13 +9,13 @@ image: assets/images/general-sharing/refresh-my-mind-my-life.jpg
 In this post, I would like to share with you the way that you interact with me via my personal blog.
 Currently, My blog is being developed in Github free host, Pipeline. Therefore, I take advantages of Github feature and plugin to  build up the essential feature for my personal blog sites.
 
-After I spent 1 day to research I had a decision to integrate my current blog: https://josdoaitran.github.io with a plugin as: https://github.com/giscus
+After I spent 1 day to research I had a decision to integrate my current blog: [https://josdoaitran.github.io](https://josdoaitran.github.io) with a plugin as: [giscus](https://github.com/giscus)
 
 ![](https://i.ibb.co/yc08ky0s/giscus-github.jpg)
 
 After I integrated and deployed again my personal blog. Now, You can take your comments via your Github account with below steps:
 
-- Whenever you want to give me your questions or any suggestion in each my post. You can N=navigate to the bottom of a page. And you can see the comment block as bellow:
+- Whenever you want to give me your questions or any suggestion in each my post. You can navigate to the bottom of a page. And you can see the comment block as bellow:
 ![](https://i.ibb.co/gbLnSJh1/github-comments-in-each-post.jpg)
 - Following the guide in comment block, you can click on sign-up button to login your Github account and accept to integrate `giscus` with your Github account.
 - You can see the pop-up as bellow:
