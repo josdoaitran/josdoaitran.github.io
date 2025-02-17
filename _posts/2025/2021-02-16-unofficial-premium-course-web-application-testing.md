@@ -18,37 +18,51 @@ This detailed outline highlights the core concepts of web application testing, a
 
 1. `Part 1 - Introduction to Web Application Testing and essential point about Web Application testing`
    - They Key-points and important thing of web testing in software development
-   - Types of web applications (Static, Dynamic, Single Page, Progressive Web Apps)
+   - Types of web applications (Static, Dynamic, Single Page, Progressive Web Apps).
    - Key challenges in web application testing
 
 2. `Part 2 - Testing Fundamentals and Methodologies`
-   Functional vs. Non-functional Testing
-   Manual vs. Automated Testing
-   Black Box, White Box, and Gray Box Testing
+   - What is Functional vs. Non-functional Testing in Web app
+   - What is Manual vs. Automated Testing in web application
+   - Black Box, White Box, and Gray Box Testing for Web application and example
 
 3. `Part 3 - Testing levels and Testing types in Web applition testing`
+
 
 4. `Part 4 - Test Planning and Strategy`
    - Understanding requirements and test objectives. The example requirements or specifications 
    - Test case design and prioritization: How to write functional and non-functional testing cases for a feature of web application.
-   - Risk-based testing approach for covering web application testing.
+   - Test Cases management tools: Jira, Xray, TestRails, Excel, Trello, ...
    - Executing test cases, how to log an issue or bug. Evidence in testing.
    - What is produce the issue and why ?
 
-5. `Part 5 - How we perform Non-Functional Testing`
+5. `Part 5 - Special Case in Web testing: Cross-Browser and Cross-Device Testing`
+    - Browser compatibility testing (Chrome, Firefox, Safari, Edge)
+    - Responsive design testing (Mobile, Tablet, Desktop)
+    - Tools for cross-browser testing (Selenium, BrowserStack, LambdaTest)
+    - Permission cases for web application testing.
+
+6. `Part 6 - How we perform Non-Functional Testing`
    - What is UI and UX Testing ?
    - Form validation and user input handling
    - Navigation and workflow validation. E2E testing
 
-6. `Part 6 - API Testing for Web Applications`
-   Basics of REST and GraphQL APIs
-   API request and response validation
-   Using tools like Postman for API automation
+7. `Part 7 - API Testing for Web Applications`
+   - Basics of REST and GraphQL APIs
+   - API request and response validation
+   - Using tools like Postman for API automation.
+   - How to record the requests in Front-end and import into Postman or other tools.
 
-7. `Part 7 - Cross-Browser and Cross-Device Testing`
-   Browser compatibility testing (Chrome, Firefox, Safari, Edge)
-   Responsive design testing (Mobile, Tablet, Desktop)
-   Tools for cross-browser testing (Selenium, BrowserStack, LambdaTest)
+8. `Part 8 - Database testing for web application`
+    - Client and Server model ? And how it is applying in web application?
+    - What is Database testing ? How do Database testing for a web application ?
+    - Why and how we capture and monitor log of application in web application testing.
+
+The above points were collected from the real experiences in variety of project types. It can be the projects in both Outsourcing companies and Product company. Hopefully, they provide you the vital knowledge and skills in Web application testing.
+
+Please contact us via [this link](https://josdoaitran.github.io/premium-courses-with-me/) or via Blog [contact page](https://josdoaitran.github.io/contact.html) to register in this course.
+
+
 
 
 
