@@ -26,7 +26,7 @@ This detailed outline highlights the core concepts of web application testing, a
    - What is Manual vs. Automated Testing in web application
    - Black Box, White Box, and Gray Box Testing for Web application and example
 
-3. `Part 3 - Testing levels and Testing types in Web applition testing`
+3. `Part 3 - Testing levels and Testing types in Web application testing`
    - Testing levels defines the stages at which different types of testing are conducted. In Web application, we should understand the crucial knowledge in Unit-Test, Integration-Test, System-Test, User Acceptance Test. How the testing process should be to assure the quality of product.
    - Testing types defines what aspect of the application is being tested. We should understand: how and when we should do: Smoke Test, Regression Test, Functional Test and Non-Functional Test, ...
    - How we can do exploratory testing for a web application ?
