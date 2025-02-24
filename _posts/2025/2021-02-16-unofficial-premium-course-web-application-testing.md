@@ -25,13 +25,14 @@ This detailed outline highlights the core concepts of web application testing, a
    - What is Functional vs. Non-functional Testing in Web app
    - What is Manual vs. Automated Testing in web application
    - Black Box, White Box, and Gray Box Testing for Web application and example
+   - Software Development life cycle (SDLC) with Application. 
 
 3. `Part 3 - Testing levels and Testing types in Web application testing`
    - Testing levels defines the stages at which different types of testing are conducted. In Web application, we should understand the crucial knowledge in Unit-Test, Integration-Test, System-Test, User Acceptance Test. How the testing process should be to assure the quality of product.
    - Testing types defines what aspect of the application is being tested. We should understand: how and when we should do: Smoke Test, Regression Test, Functional Test and Non-Functional Test, ...
    - How we can do exploratory testing for a web application ?
 
-4. `Part 4 - Test Planning and Strategy`
+4. `Part 4 - Test Planning and Strategy in Web application testing`
    - Understanding requirements and test objectives. The example requirements or specifications 
    - Test case design and prioritization: How to write functional and non-functional testing cases for a feature of web application.
    - Test Cases management tools: Jira, Xray, TestRails, Excel, Trello, ...
@@ -44,12 +45,12 @@ This detailed outline highlights the core concepts of web application testing, a
     - Tools for cross-browser testing (Selenium, BrowserStack, LambdaTest)
     - Permission cases for web application testing.
 
-6. `Part 6 - How we perform Non-Functional Testing`
+6. `Part 6 - How we perform Non-Functional Testing with Web Application`
    - What is UI and UX Testing ?
    - Form validation and user input handling
    - Navigation and workflow validation. E2E testing
 
-7. `Part 7 - API Testing for Web Applications`
+7. `Part 7 - API Testing for Web Application`
    - Basics of REST and GraphQL APIs
    - API request and response validation
    - Using tools like Postman for API automation.
