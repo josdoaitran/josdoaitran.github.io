@@ -23,11 +23,11 @@ This course is developed to gather essential knowledge and key approaches to imp
 Therefore, This course is designed for QA, tester and software engineers who want to master web application testing from fundamentals to advanced techniques.
 
 This Course Is Perfect For:
-✔ Manual Testers who want to learn structured testing approaches
-✔ QA Engineers looking to enhance their functional, UI, and performance testing skills
-✔ Developers who want to understand how to test web applications effectively
-✔ Tech Leads & Managers who need to improve their team’s web testing strategies
 
+- ✔ Manual Testers who want to learn structured testing approaches
+- ✔ QA Engineers looking to enhance their functional, UI, and performance testing skills
+- ✔ Developers who want to understand how to test web applications effectively
+- ✔ Tech Leads & Managers who need to improve their team’s web testing strategies
 If you want to build expertise in testing modern web applications using industry best practices, this course is for you!
 
 # Content of this course
