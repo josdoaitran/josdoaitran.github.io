@@ -13,6 +13,23 @@ Participants will learn how to develop effective test strategies, design and exe
 - The course emphasizes real-world scenarios and best practices, equipping students with the skills needed to ensure the quality and reliability of web applications. Topics covered may include functional testing, non-functional testing: usability testing, UI and UX testing, performance testing, security testing, How about cross-browser compatibility testing, and test automation.
 - By the end of the course, students will be able to confidently apply web testing methodologies in their projects and more confident in interview question about Web testing.
 
+This course provides practical, hands-on experience in web testing, covering a range of essential techniques and tools.  
+Participants will learn how to develop effective test strategies, design and execute test cases, and identify and report bugs.
+- The course emphasizes real-world scenarios and best practices, equipping students with the skills needed to ensure the quality and reliability of web applications. Topics covered may include functional testing, non-functional testing: usability testing, UI and UX testing, performance testing, security testing, How about cross-browser compatibility testing, and test automation.
+- By the end of the course, students will be able to confidently apply web testing methodologies in their projects and more confident in interview question about Web testing.
+
+# The audiences of Web application testing course
+This course is developed to gather essential knowledge and key approaches to improve the quality of web application development.
+Therefore, This course is designed for QA, tester and software engineers who want to master web application testing from fundamentals to advanced techniques.
+
+This Course Is Perfect For:
+✔ Manual Testers who want to learn structured testing approaches
+✔ QA Engineers looking to enhance their functional, UI, and performance testing skills
+✔ Developers who want to understand how to test web applications effectively
+✔ Tech Leads & Managers who need to improve their team’s web testing strategies
+
+If you want to build expertise in testing modern web applications using industry best practices, this course is for you!
+
 # Content of this course
 This detailed outline highlights the core concepts of web application testing, as taught in a practical, hands-on course.
 
