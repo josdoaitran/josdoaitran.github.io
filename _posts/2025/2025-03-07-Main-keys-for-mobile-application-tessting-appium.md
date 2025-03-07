@@ -27,7 +27,11 @@ Here is my answer, it was collected from my knowledge and skills
 What is Appium Inspector app ?
 - What is  W3C WebDriver protocol
 - Appium 1.0 and Appium 2.0 ?
-  https://appium.io/docs/en/2.0/guides/migrating-1-to-2/
+You can refer to: https://appium.io/docs/en/2.0/guides/migrating-1-to-2/
+
+or this page: 
+https://www.lambdatest.com/blog/appium-inspector-for-apps/
+
 - Appium 1.0: Support these protocols: `W3C WebDriver` & `JSON Wire Protocol`.
 - Appium 2.0: Support these protocols: `W3C WebDriver` only, No support: `JSON Wire Protocol` more.
 - Appium 1.0 capability:
