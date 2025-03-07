@@ -17,8 +17,10 @@ From my comments, you could have your ideas to select a proper plan for yourself
 Instead of depended on any guy (your instructor, your line manager, even me)
 
 ## My suggestion to learn Mobile automation test with Appium
-![](https://lh7-us.googleusercontent.com/pSy9m0xuJCgmttavS62h7dA0Mg9GJFTjFBa2_lzjf0MVyRAS3Pc9rO8ivEjyS2L03_5zR5kXIyyVkyUAV84rQ4mYv0OBtG7mHS4llQVH6TSx-_DNS7OzNhwMSrdRDLCqP3Ow3TsPe0Ns9pFBJqIQSj8)
 Here is my answer, it was collected from my knowledge and skills
+
+![](https://lh7-us.googleusercontent.com/pSy9m0xuJCgmttavS62h7dA0Mg9GJFTjFBa2_lzjf0MVyRAS3Pc9rO8ivEjyS2L03_5zR5kXIyyVkyUAV84rQ4mYv0OBtG7mHS4llQVH6TSx-_DNS7OzNhwMSrdRDLCqP3Ow3TsPe0Ns9pFBJqIQSj8)
+
 ## Point 1: What is Appium, Understand how Appium works
 - Open source tools, enable us  cover automated test for mobile app (Android, IOS), Mobile Web App and Windows application.
 - It can be controlled and worked with modern programming languages: Java, Python, Javascript, Typescript, C#, ...
@@ -27,10 +29,10 @@ Here is my answer, it was collected from my knowledge and skills
 What is Appium Inspector app ?
 - What is  W3C WebDriver protocol
 - Appium 1.0 and Appium 2.0 ?
-You can refer to: https://appium.io/docs/en/2.0/guides/migrating-1-to-2/
+You can refer to: [https://appium.io/docs/en/2.0/guides/migrating-1-to-2/](https://appium.io/docs/en/2.0/guides/migrating-1-to-2/)
 
 or this page: 
-https://www.lambdatest.com/blog/appium-inspector-for-apps/
+[https://www.lambdatest.com/blog/appium-inspector-for-apps/](https://www.lambdatest.com/blog/appium-inspector-for-apps/)
 
 - Appium 1.0: Support these protocols: `W3C WebDriver` & `JSON Wire Protocol`.
 - Appium 2.0: Support these protocols: `W3C WebDriver` only, No support: `JSON Wire Protocol` more.
