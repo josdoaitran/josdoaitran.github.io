@@ -36,8 +36,9 @@ or this page:
 
 - Appium 1.0: Support these protocols: `W3C WebDriver` & `JSON Wire Protocol`.
 - Appium 2.0: Support these protocols: `W3C WebDriver` only, No support: `JSON Wire Protocol` more.
-- Appium 1.0 capability:
-```angular2html
+- Appium 1.0 capability
+
+```
 {
   "platformName": "Android",
   "platformVersion": "11.0",
@@ -45,11 +46,11 @@ or this page:
   "app": "/path/to/your/app.apk",
   "automationName": "UiAutomator2"
 }
-
 ```
 
 - Appium 2.0 capability
-```angular2html
+
+```
 {
   "appium:platformName": "Android",
   "appium:platformVersion": "11.0",
@@ -58,6 +59,7 @@ or this page:
   "appium:automationName": "UiAutomator2"
 }
 ```
+
 - Updating a specific driver in Appium 2.0: `uiautomator2`, `XCUITest` driver.
 
 ## Point 2: Setup a local environment to work with Appium
