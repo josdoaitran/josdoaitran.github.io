@@ -3,7 +3,7 @@ layout: post
 title:  "Main keys to learn Mobile Application Testing - Appium"
 author: donald
 categories: [ mobile-app-test, tutorial, appium ]
-image: assets/images/web-testing/10-keys-web-app-testing.png
+image: assets/images/mobile-testing/automation-testing/appium.png
 ---
 
 # The essential key points for Mobile Application Testing - Appium
