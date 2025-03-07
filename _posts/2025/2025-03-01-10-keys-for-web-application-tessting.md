@@ -14,9 +14,9 @@ image: assets/images/web-testing/10-keys-web-app-testing.png
 - Key 4 - Test Cases and Considering app permissions
 - Key 5 - Test Cases and Considering Cookies testings
 - Key 6 - Considering Database Testing
-- Key 7 - Apply UI Automation testing and Functional Automation Testing
+- Key 7 - Apply E2E Automation testing
 - Key 8 - Considering Web Security Testing
-- Key 9 - UI/UX Testing and Usability testing
+- Key 9 - UI/UX Testing, Usability testing
 - Key 10 - Performance testing: Client Side and Server Side Performance Testing
 
 [![10 keys for web application testing #shorts #mobile](https://img.youtube.com/vi/cYTZdLm1uxI/0.jpg)](https://www.youtube.com/watch?v=cYTZdLm1uxI)
