@@ -1,4 +1,4 @@
----
+\fian---
 layout: post
 title:  "Main keys to learn Mobile Application Testing - Appium"
 author: donald
@@ -122,6 +122,7 @@ And here is the answer from ChatGPT
 ![walking]({{ site.baseurl }}/assets/images/mobile-testing/automation-testing/chatgpt-appium-automation-p1.png)
 ![walking]({{ site.baseurl }}/assets/images/mobile-testing/automation-testing/chatgpt-appium-automation-p2.png)
 ![walking]({{ site.baseurl }}/assets/images/mobile-testing/automation-testing/chatgpt-appium-automation-p3.png)
+![walking]({{ site.baseurl }}/assets/images/mobile-testing/automation-testing/chatgpt-appium-automation-p4.png)
 
 I really liked the tutorial ChatGPT provided on Appium lesson suggestion. It covered everything from scratch to the basic levels, preparing us to complete important tasks in automated testing for a mobile application.
 
@@ -134,7 +135,8 @@ However, it did mention the essential points:
 - I did NOT mention a specify programming language that I want to  learn in a mobile automation test course. Therefore, ChatGPT did not mention the essential steps that we should learn with a test framework.
 - From my experiences, I suggest we should apply distributed execution instead of parallel execution in test. It helps us easier to debug the test than using parallel execution.
 
-There are two points that I would really love AI to suggest improvements on: `Performance & Network Testing` and `Regularly cleaning device cache/data before test execution`. Some of these points impact the stability of mobile automation testing, and one point relates to flaky testing.
+There are two points that I would really love AI to suggest improvements on my post: `Performance & Network Testing` and `Regularly cleaning device cache/data before test execution`. Some of these points impact the stability of mobile automation testing, and one point relates to flaky testing.
+And especially about, we must install: Android SDK for Android and Xcode for iOS to run automation test for android and ios devices.
 
 [//]: # ([![10 keys for web application testing #shorts #mobile]&#40;https://img.youtube.com/vi/cYTZdLm1uxI/0.jpg&#41;]&#40;https://www.youtube.com/watch?v=cYTZdLm1uxI&#41;)
 [//]: # ()
