@@ -36,8 +36,7 @@ or this page:
 
 - Appium 1.0: Support these protocols: `W3C WebDriver` & `JSON Wire Protocol`.
 - Appium 2.0: Support these protocols: `W3C WebDriver` only, No support: `JSON Wire Protocol` more.
-- Appium 1.0 capability
-
+- Appium 1.0 capability like:
 ```
 {
   "platformName": "Android",
@@ -48,7 +47,7 @@ or this page:
 }
 ```
 
-- Appium 2.0 capability
+- Appium 2.0 capability like:
 
 ```
 {
@@ -68,7 +67,7 @@ or this page:
 - Install Appium Inspector.
 - Use Appium Inspector to inspect element 
 - Connect a virtual device to Appium
-- Android device emulator and iOS simulator
+- Android Device Emulator and iOS simulator
 - Inspect a specify app via app package in a mobile device from Appium.
 
 ## Point 3: Understanding of Locator with Appium
@@ -81,7 +80,7 @@ or this page:
 - Type: iOS Class Chain for iOS only
 
 ## Point 4: Build up a basic test script to control mobile application
-- Init a maven Java project
+- Initialize a maven Java project
 - Add Appium and TestNG dependencies.
 - Write a method to initialize driver to connect to mobile device.
 - Specially, How to use Appium Inspector to compare the performance of each types of locator
@@ -114,7 +113,8 @@ or this page:
 - Handle Push Notification in Device
 
 ## ChatGpt answered the question "Please help me list out of the essential key points for Mobile Application Testing - Appium"
-Here is my question to Open AI, ChatGPT: 
+Here is my question to Open AI, ChatGPT:
+
 ```angular2html
 "Please help me list out of the essential key points for Mobile Application Testing - Appium"
 ```
@@ -129,7 +129,7 @@ I really liked the tutorial ChatGPT provided on Appium lesson suggestion. It cov
 However, it did mention the essential points:
 - Compare to Appium 1.0 and Appium 2.0 has the many chances. 
 - Appium 2.0 not support `JSON Wire Protocol` more
-- Appium 2.0 driver plugin: `uiautomator2`, `XCUITest` driver
+- Appium 2.0 driver plugin: `UIAutomator2`, `XCUITest` driver
 - How we can set up an Android device emulator and iOS simulator.
 - Inspect a specify app via app package in a mobile device from Appium.
 - I did NOT mention a specify programming language that I want to  learn in a mobile automation test course. Therefore, ChatGPT did not mention the essential steps that we should learn with a test framework.
