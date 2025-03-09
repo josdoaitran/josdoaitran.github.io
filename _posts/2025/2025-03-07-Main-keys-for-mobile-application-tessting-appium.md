@@ -1,4 +1,4 @@
-\fian---
+---
 layout: post
 title:  "Main keys to learn Mobile Application Testing - Appium"
 author: donald
