@@ -3,7 +3,7 @@ layout: post
 title:  "Premium Course - Web Application Testing: Essential Concepts & Practical Guide Testing4Everyone"
 author: donald
 categories: [ web-testing, tutorial, testing4everyone, course]
-image: assets/images/web-testing/prenium-course-web-testing-cover.png
+image: assets/images/web-testing/premium-course-web-testing-cover.png
 tags: [premium]
 ---
 
