@@ -8,22 +8,21 @@ tags: [premium, robot-framework]
 ---
 
 # About
-
+- Robot Framework: https://robotframework.org/
+- Open Source. Following to RPA - Robotic Process Automation (RPA): [https://docs.robotframework.org/docs/different_libraries/rpa](https://docs.robotframework.org/docs/different_libraries/rpa).
+- Robot Framework is primarily a Python-based framework, but it also supports libraries and extensions written in languages like Java, C#, and others through its remote library interface.
+- From Feb 2025, it only supports Python.
+- Robot Framework Document Guide: [https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
 
 # The audiences of Web application testing course
-This course is developed to gather essential knowledge and key approaches to improve the quality of web application development.
-Therefore, This course is designed for QA, tester and software engineers who want to master web application testing from fundamentals to advanced techniques.
-
-This Course Is Perfect For:
-
-- ✔ Manual Testers who want to learn structured testing approaches
-- ✔ QA Engineers looking to enhance their functional, UI, and performance testing skills
-- ✔ Developers who want to understand how to test web applications effectively
-- ✔ Tech Leads & Managers who need to improve their team’s web testing strategies
-If you want to build expertise in testing modern web applications using industry best practices, this course is for you!
+This course is developed to gather essential knowledge and key approaches to get familiar with Robot Framework
+Therefore, this Course Is Perfect For:
+- ✔ Manual Testers, QA Automation Engineers who want to learn automation test with Robot Framework and Selenium
+- ✔ Developers who want to understand how to test web applications by a test framework effectively
+- ✔ Tech Leads & Managers who need to improve their team’s web testing strategies with an automation test framework.
 
 # Content of this course
-This detailed outline highlights the core concepts of web application testing, as taught in a practical, hands-on course.
+This detailed outline highlights the core concepts of automation testing with Robot Framework, as taught in a practical, hands-on course.
 
 
 
