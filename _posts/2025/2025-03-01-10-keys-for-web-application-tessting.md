@@ -4,6 +4,7 @@ title:  "10 key points for Web Application Testing"
 author: donald
 categories: [ web-app-test, tutorial ]
 image: assets/images/web-testing/10-keys-web-app-testing.png
+tags: [tutorial, web-testing]
 ---
 
 # 10 key points for Web Application Testing

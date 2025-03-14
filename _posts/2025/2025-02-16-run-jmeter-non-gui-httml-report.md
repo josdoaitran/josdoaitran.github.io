@@ -4,6 +4,7 @@ title:  "How to run Non-GUI mode of JMeter, Generating HTML report"
 author: donald
 categories: [ performance-test, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
+tags: [tutorial, jmeter]
 ---
 
 Run JMeter via Commandline - NonGUI jmeter mode and HTML report

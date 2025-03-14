@@ -4,6 +4,7 @@ title:  "Less than 5 minutes to root an Android Device"
 author: testing4everyone
 categories: [ android-studio, tutorial ]
 image: assets/images/general-sharing/how-to-image.png
+tags: [tutorial, mobile-testing]
 ---
 
 # What is Root or Root Access to an Android device
