@@ -4,7 +4,7 @@ title:  "Premium Course - Web Application Testing: Essential Concepts & Practica
 author: donald
 categories: [ web-testing, tutorial, testing4everyone, course]
 image: assets/images/web-testing/premium-course-web-testing-cover.png
-tags: [premium]
+tags: [robot-framework, automation-test]
 ---
 
 # About
