@@ -37,6 +37,7 @@ Here's a breakdown of key commands and their uses:
 `xcrun simctl set_location <simulator_udid> 37.3323 -122.0312` (set location to San Francisco)
 `xcrun simctl send_push <simulator_udid> <bundle_id>` (send push notification)
 `xcrun simctl shake <simulator_udid>` (simulate shake gesture)
+
 6. Other Useful Commands:
 - `xcrun simctl help`: Displays a list of all available simctl commands.
 - `xcrun simctl listapps <simulator_udid>`: Lists installed apps on a simulator.
