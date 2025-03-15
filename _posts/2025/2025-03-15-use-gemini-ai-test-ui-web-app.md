@@ -60,7 +60,16 @@ Here is my request to Gemini to ask it do comparison between base image and comp
 - Compared image
 ![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/compared-image-gg.png)
 
+- Here is my requests to Gemini:
 ![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/1.png)
+
+Here is the response from Gemini to highlight the differences
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/2.png)
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/3.png)
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/4.png)
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/5.png)
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/6.png)
+
 # The accuracy of AI response and Security aspect 
 Keep in your mind: Gemini still can make mistake !!! we have to check again and Protect the data in your project.
 
