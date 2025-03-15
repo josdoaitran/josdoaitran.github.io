@@ -73,6 +73,40 @@ Here is the response from Gemini to highlight the differences
 # The accuracy of AI response and Security aspect 
 Keep in your mind: Gemini still can make mistake !!! we have to check again and Protect the data in your project.
 
+After I reviewed the way that Gemini returned the result. It covered the differences in browser types (Brave and Chrome in based image). Therefore, it contained the redundant comparison.
 
+## Refine the test and adjust the test how Gemini could work better
+I tried to narrow down our scope testing to ignore the differences between 2 types of browsers.
+
+Here is my new prompt to Gemini:
+![img.png](../../assets/images/ai-for-testing/refine-ask-gemini-again/prompt.png)
+
+And here is the new response from Gemini
+![img.png](../../assets/images/ai-for-testing/refine-ask-gemini-again/1.png)
+![img.png](../../assets/images/ai-for-testing/refine-ask-gemini-again/2.png)
+![img.png](../../assets/images/ai-for-testing/refine-ask-gemini-again/3.png)
+
+## Ask Gemini to compare the difference rate and miss-match acceptance 
+In visual testing, we should have the miss-match acceptance rate to consider the actual UI is acceptable or not.
+For example, the difference rate is 8%, but the acceptance is 10%. The actual UI can be passed.
+
+Now, I requested to Gemini to set an acceptance and give me the resul of testing.
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/chat-promtp.png)
+And here is the Gemini's evaluation
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/1.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/2.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/3.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/4.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/5.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/6.png)
+
+However, the above result is not reflected to actual scenario as fixed comparison.
+The language differences should be ignore here.
+Let me refine it again:
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/refine/refine.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/refine/1.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/refine/2.png)
+![img.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/refine/3.png)
+![4.png](../../assets/images/ai-for-testing/miss-match-acceptance-gemini/refine/4.png)
 # Happy Testing ^^
 
