@@ -3,7 +3,7 @@ layout: post
 title:  "Use Gemini AI supports us cover UI Testing for a Web Application"
 author: donald
 categories: [ web-app-test, tutorial ]
-image: assets/images/mobile-testing/automation-testing/appium.png
+image: assets/images/ai-for-testing/ai-gemini-assistance-visual-test.png
 tags: [tutorial, web-testing]
 ---
 
