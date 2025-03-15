@@ -26,7 +26,7 @@ Could you provide the checklist to cover UI testing this page ?
 ```
 And here is the result from Gemini: 
 
-![img.png](../../assets/images/ai-for-testing/use-gemini-to-g-checklist-ui-test.png)
+![img.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/question-response-gemini.png)
 
 Here is the full response from Gemini as images that I captured
 
@@ -45,11 +45,22 @@ We can see Gemini AI helps us list out of almost essential point off Visual test
 - Specify UI test
 - Accessibility test
 - Functionality works in browser.
-- Performance UI and Security 
+- Performance UI and Security.
+
+**Note: you still need to review and update the checklist how it is relevant to your project.**
 
 # Use Gemini to execute visual testing
+After I used Gemini AI to generate the UI check-list for covering testing for a web app, I will use Gemini to execute the UI testing to cover UI check Layout and some specify UI test. Let's see How Gemini play
 I captured the screenshot of Google search page in my Brave browser to compare the visual UI of base image that I did in the previous step.
 
+Here is my request to Gemini to ask it do comparison between base image and compared image.
+
+- Based image
+  ![https://www.hubspot.com/hs-fs/hubfs/google-homepage_4.webp?width=700&height=363&name=google-homepage_4.webp](https://www.hubspot.com/hs-fs/hubfs/google-homepage_4.webp?width=700&height=363&name=google-homepage_4.webp)
+- Compared image
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/compared-image-gg.png)
+
+![img.png](../../assets/images/ai-for-testing/respone-gemini-execute-ui-test/1.png)
 # The accuracy of AI response and Security aspect 
 Keep in your mind: Gemini still can make mistake !!! we have to check again and Protect the data in your project.
 
