@@ -40,6 +40,13 @@ Here is the full response from Gemini as images that I captured
 ![response-gemini-g-checklist-ui-test-8.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/8.png)
 ![response-gemini-g-checklist-ui-test-9.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/9.png)
 
+We can see Gemini AI helps us list out of almost essential point off Visual testing for a web app.
+- UI Check Layout.
+- Specify UI test
+- Accessibility test
+- Functionality works in browser.
+- Performance UI and Security 
+
 # Use Gemini to execute visual testing
 I captured the screenshot of Google search page in my Brave browser to compare the visual UI of base image that I did in the previous step.
 
