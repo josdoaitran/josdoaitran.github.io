@@ -26,11 +26,25 @@ Could you provide the checklist to cover UI testing this page ?
 ```
 And here is the result from Gemini: 
 
-![img.png](../../assets/images/ai-for-testing/use-gemini-to-g-checklist-ui-test-1.png)
+![img.png](../../assets/images/ai-for-testing/use-gemini-to-g-checklist-ui-test.png)
 
-# Use Gemini to execute visual testing 
+Here is the full response from Gemini as images that I captured
 
-# Keep in your mind: Gemini still can make mistake !!! we have to check again 
+![response-gemini-g-checklist-ui-test-1.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/1.png)
+![response-gemini-g-checklist-ui-test-2.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/2.png)
+![response-gemini-g-checklist-ui-test-3.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/3.png)
+![response-gemini-g-checklist-ui-test-4.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/4.png)
+![response-gemini-g-checklist-ui-test-5.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/5.png)
+![response-gemini-g-checklist-ui-test-6.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/6.png)
+![response-gemini-g-checklist-ui-test-7.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/7.png)
+![response-gemini-g-checklist-ui-test-8.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/8.png)
+![response-gemini-g-checklist-ui-test-9.png](../../assets/images/ai-for-testing/response-gemini-g-checklist-ui-test/9.png)
+
+# Use Gemini to execute visual testing
+I captured the screenshot of Google search page in my Brave browser to compare the visual UI of base image that I did in the previous step.
+
+# The accuracy of AI response and Security aspect 
+Keep in your mind: Gemini still can make mistake !!! we have to check again and Protect the data in your project.
 
 
 # Happy Testing ^^
