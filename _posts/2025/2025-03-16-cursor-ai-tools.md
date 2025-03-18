@@ -3,7 +3,7 @@ layout: post
 title:  "Try to use Cursor tool for automation testing daily work"
 author: donald
 categories: [ ai-test, tutorial ]
-image: assets/images/ai-for-testing/cursor-ai-editor-tool.png
+image: assets/images/ai-for-testing/cursor/cursor-example.png
 tags: [tutorial, ai-for-testing]
 ---
 # Cursor - AI Editor Code
