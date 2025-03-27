@@ -12,7 +12,7 @@ There are many questions relates to topics:
 - "why we should use tool A, not tool B ?" 
 - "Which tools I should learn to cover UI automation test for web app"
 
-# Some factor to help us to choose the proper tools for covering UI automation testing
+# Some factors to help us to choose the proper tools for covering UI automation testing
 
 Here's a breakdown of keys that we can consider to choose the proper tools in automation test framework for UI web application testing:
 
