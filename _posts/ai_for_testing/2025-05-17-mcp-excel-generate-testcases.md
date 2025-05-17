@@ -77,4 +77,4 @@ how it is compatible with BDD Given When Then format.
 ![walking]({{ site.baseurl }}/assets/images/ai-for-testing/mcp-test-cases/mcp-excel-refactor-to-bdd.png)
 
 Besides, Claude AI gave me the BDD test cases template where we can refer, review and request to update more in case AI template is not enough good as we expect.
-![walking]({{ site.baseurl }}/assets/images/ai-for-testing/mcp-test-cases/mcp-excel-refactor-to-bdd/ai-claude-mcp-bdd-testcase-template.png)
+![walking]({{ site.baseurl }}/assets/images/ai-for-testing/mcp-test-cases/ai-claude-mcp-bdd-testcase-template.png)
