@@ -13,9 +13,9 @@ tags: [tutorial, ai-for-testing]
 
 # Tools and Setup MCP Server
 - Using Cursor, VSCode with Copilot, Claude
-- Configure MCP for Execel: https://github.com/negokaz/excel-mcp-server
+- Configure MCP for Execel: [https://github.com/negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server)
 MCP Excel server is automatically installed by adding the following configuration to the MCP servers configuration
-https://github.com/negokaz/excel-mcp-server
+[excel-mcp-server](https://github.com/negokaz/excel-mcp-server)
 
 ## Windows
 ```json
