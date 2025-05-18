@@ -3,7 +3,7 @@ layout: post
 title:  "MCP - Excel with Claude AI to generate test cases automatically"
 author: donald
 categories: [ ai-test, ai-agent, llm, mcp-ai ]
-image: assets/images/ai-for-testing/mcp-test-cases/claude-desktop-mcp-excel.png
+image: assets/images/ai-for-testing/mcp-test-cases/how-claude-mcp-excel-work.png
 tags: [tutorial, ai-for-testing]
 ---
 
