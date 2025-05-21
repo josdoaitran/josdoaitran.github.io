@@ -280,7 +280,7 @@ The Test Pyramid is a fundamental concept in software testing that helps teams m
 ### Unit Tests
 - Keep tests focused and small
 - Use meaningful test names
-- Follow AAA pattern (Arrange, Act, Assert)
+- Follow AAA pattern (Arrange, Act, Assert) - [Here](http://docs.telerik.com/devtools/justmock/basic-usage/arrange-act-assert)
 - Mock external dependencies
 - Maintain high coverage of business logic
 
@@ -416,10 +416,10 @@ However !! Exciting with Modern Test Pyramind, how we can optimize and accelarat
 ## HoneyComb Test Model:
 You can refer more via: 
 - [HoneyComb Test Model ss-tech](https://medium.com/@ss-tech/the-honeycomb-test-model-a-holistic-approach-to-software-testing-a9dd39475ee9)
-- [HoneyComb Spootyfy - Test Microservice]https://engineering.atspotify.com/2018/01/testing-of-microservices)
+- [HoneyComb Spootyfy - Test Microservice](https://engineering.atspotify.com/2018/01/testing-of-microservices)
 ## Modern Test Pyramid
 We expanded more types of testing and levels of testing, we should arrange them effectively also to optimize them.
-reffer to these link:
+reffer to these links:
 - [Modern-test-pyramid](https://dev.to/optivem/modern-test-pyramid-4dfc)
 - [New Test Pyramid - Valentina](https://journal.optivem.com/p/new-test-pyramid)
 

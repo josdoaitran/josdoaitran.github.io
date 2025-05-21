@@ -15,7 +15,7 @@ Key of contents:
 - What is Microservice and Microserservice Testing
 - Synchronous And Asynchronous communication patterns.
 - What is Event-Driven before Our strategy for covering Event-Driven System ?
-- Especialy, I would like to mention the checklist of Event-Driven System that we can apply in our project.
+- Especially, I would like to mention the checklist of Event-Driven System that we can apply in our project.
 
 # Microservice System Architecture and Microservice Tesing
 I already have a post, where I noted all main key points about Microservice testing.
