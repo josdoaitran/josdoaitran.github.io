@@ -12,14 +12,14 @@ In this guide, I will cover key concepts, testing approaches about covering a te
 As a QA or Tester, we should jump in the detailed information about Event Driven Testing to understand the basic concepts in System Architecture as System-under-Test. It's vital for QA engineer to take care of the quality of a system in microservice effectively.
 
 Key of contents:
-- What is Microservice and Microserservice Testing
+- What is Microservice and Micro-service Testing
 - Synchronous And Asynchronous communication patterns.
 - What is Event-Driven before Our strategy for covering Event-Driven System ?
 - Especially, I would like to mention the checklist of Event-Driven System that we can apply in our project.
 
 # Microservice System Architecture and Microservice Tesing
 I already have a post, where I noted all main key points about Microservice testing.
-You can reffer to [here](https://josdoaitran.github.io/microservice-testing-test-pyramid/)
+You can refer to [here](https://josdoaitran.github.io/microservice-testing-test-pyramid/)
 
 # Synchronous And Asynchronous communication patterns
 
@@ -38,9 +38,9 @@ An event is a significant occurrence or state change within a system that other 
 - **Versioned**: To handle schema evolution
 
 ### Example Events
-- `OrderCreated`
-- `PaymentProcessed`
-- `InventoryUpdated`
+- `OrderCreatedEvent`
+- `PaymentProcessedEvent`
+- `InventoryUpdatedEvent`
 - `UserRegistered`
 - `ShipmentDelivered`
 
@@ -63,7 +63,6 @@ Absolutely, QA has to be familiar with [RESTAPI](https://www.ibm.com/think/topic
    - Example: In the make a payment flow: Order service calling Payment service. And a payment flow  depends on the response of Payment service.
 
 2. **gRPC**
-
    - High-performance RPC framework
    - Protocol Buffers
    - Bi-directional streaming
@@ -107,12 +106,12 @@ Absolutely, QA has to be familiar with [RESTAPI](https://www.ibm.com/think/topic
 1. **Event Producer**
    - Creates and publishes events
    - Doesn't know about consumers
-   - Example: `Order service` publishing `OrderCreated`
+   - Example: `Order service` publishing `OrderCreatedEvent`
 
 2. **Event Consumer**
    - Subscribes to events
    - Processes events asynchronously
-   - Example: `Inventory service` consuming `OrderCreated`
+   - Example: `Inventory service` consuming `OrderCreatedEvent`
 
 3. **Event Bus/Broker**
    - Manages event distribution
@@ -144,8 +143,10 @@ Absolutely, QA has to be familiar with [RESTAPI](https://www.ibm.com/think/topic
    - Dynamic service composition
    - Business process evolution
 
+
+
 # Challenges in Testing for Event-Driven System
-In this part, Let's explore the all challenges in development and specially testing for covering a Event-Driven systems. It comes from the assence of a Event-Driven System. They are complex.
+In this part, Let's explore the all challenges in development and especially testing for covering a Event-Driven systems. It comes from the assence of a Event-Driven System. They are complex.
 
 Testing Event-Driven Systems presents unique challenges due to their asynchronous nature and distributed architecture. Let's explore these challenges with practical examples:
 
@@ -156,10 +157,10 @@ Testing Event-Driven Systems presents unique challenges due to their asynchronou
 
 **Example Scenario**:
 ```json
-// OrderCreated Event Schema v1
+// OrderCreatedEvent Event Schema v1
 {
     "eventId": "uuid",
-    "eventType": "OrderCreated",
+    "eventType": "OrderCreatedEvent",
     "timestamp": "2024-01-15T10:00:00Z",
     "data": {
         "orderId": "ORD-123",
@@ -186,16 +187,16 @@ Testing Event-Driven Systems presents unique challenges due to their asynchronou
 **Example Scenario**:
 ```
 Sequence of events in an e-commerce system:
-1. OrderCreated
-2. PaymentProcessed
-3. InventoryUpdated
-4. OrderShipped
+1. OrderCreatedEvent
+2. PaymentProcessedEvent
+3. InventoryUpdatedEvent
+4. OrderShippedEvent
 ```
 
 **Testing Challenges**:
 - Testing scenarios where events arrive out of order
-- Verifying system behavior when `PaymentProcessed` arrives before `OrderCreated`
-- Handling duplicate events (e.g., `PaymentProcessed` received twice)
+- Verifying system behavior when `PaymentProcessedEvent` arrives before `OrderCreatedEvent`
+- Handling duplicate events (e.g., `PaymentProcessedEvent` received twice)
 
 ## 2. Integration Testing Challenges
 
@@ -218,7 +219,7 @@ Order Service -> Payment Service -> Inventory Service -> Shipping Service
 
 **Example Scenario**:
 ```
-1. Order Service publishes OrderCreated
+1. Order Service publishes OrderCreatedEvent
 2. Payment Service fails to process payment
 3. System should trigger retry mechanism
 4. After 3 retries, should publish PaymentFailed event
@@ -255,7 +256,7 @@ Expected load:
 **Example Scenario**: Inventory Service
 ```
 Processing requirements:
-- Handle 1000 InventoryUpdated events per minute
+- Handle 1000 InventoryUpdatedEvent events per minute
 - Process each event within 100ms
 - Scale to 5 instances under load
 ```
@@ -274,11 +275,11 @@ Processing requirements:
 **Example Scenario**:
 ```
 Producer (Order Service):
-- Publishes OrderCreated event
+- Publishes OrderCreatedEvent event
 - Schema version 1.0
 
 Consumer (Inventory Service):
-- Expects OrderCreated event
+- Expects OrderCreatedEvent event
 - Schema version 1.0
 ```
 
@@ -293,7 +294,7 @@ Consumer (Inventory Service):
 
 **Example Scenario**:
 ```
-OrderCreated Event Evolution:
+OrderCreatedEvent Event Evolution:
 v1.0: Basic order information
 v1.1: Added paymentMethod field
 v2.0: Major restructure of items array
@@ -313,7 +314,7 @@ v2.0: Major restructure of items array
 **Example Scenario**:
 ```
 Order Flow Tracking:
-1. Track OrderCreated event through all services
+1. Track OrderCreatedEvent event through all services
 2. Monitor processing time at each step
 3. Identify failed events
 4. Track event correlation
@@ -363,7 +364,7 @@ Normally, Our Developer will focus on this level to handle testing of logic of e
        Order order = new Order("ORD-123", "CUST-456");
        OrderCreatedEvent event = orderService.createOrderEvent(order);
        
-       assertThat(event.getEventType()).isEqualTo("OrderCreated");
+       assertThat(event.getEventType()).isEqualTo("OrderCreatedEvent");
        assertThat(event.getData().getOrderId()).isEqualTo("ORD-123");
        assertThat(event.getTimestamp()).isNotNull();
    }
@@ -373,9 +374,9 @@ Normally, Our Developer will focus on this level to handle testing of logic of e
    ```java
    // Example: Testing Inventory Service Event Consumer
    @Test
-   public void testInventoryUpdateOnOrderCreated() {
-       OrderCreatedEvent event = createSampleOrderEvent();
-       inventoryService.handleOrderCreated(event);
+   public void testInventoryUpdateOnOrderCreatedEvent() {
+       OrderCreatedEventEvent event = createSampleOrderEvent();
+       inventoryService.handleOrderCreatedEvent(event);
        
        assertThat(inventoryService.getStockLevel("PROD-789"))
            .isEqualTo(initialStock - event.getData().getItems().get(0).getQuantity());
@@ -387,7 +388,7 @@ Normally, Our Developer will focus on this level to handle testing of logic of e
    // Example: Testing Event Schema Validation
    @Test
    public void testOrderCreatedEventSchema() {
-       OrderCreatedEvent event = createSampleOrderEvent();
+       OrderCreatedEventEvent event = createSampleOrderEvent();
        ValidationResult result = eventSchemaValidator.validate(event);
        
        assertThat(result.isValid()).isTrue();
@@ -506,7 +507,7 @@ We can do manual testing and basing on our knowldege in Technical points of syst
 
 ## Checklist for Event-Driven System
 
-Beside, applying the Test Pyramid. When we have to take care of testing of a Event-Driven system. Depending on the architecture desing, we will have the proper testing checklists to assure the proper coverage.
+Besides, applying the Test Pyramid. When we have to take care of testing of a Event-Driven system. Depending on the architecture desing, we will have the proper testing checklists to assure the proper coverage.
 
 ### Manual End-to-End Testing Checklist
 
@@ -660,7 +661,7 @@ Beside, applying the Test Pyramid. When we have to take care of testing of a Eve
    -  Test UI loading states
    -  Validate UI accessibility
 
-### Testing Environment Requirements
+### 11. Testing Environment Requirements
 1. **Test Data**
    -  Prepare realistic test data sets
    -  Create test event templates
