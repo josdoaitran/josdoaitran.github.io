@@ -3,7 +3,7 @@ layout: post
 title:  "Install Multi Java Version in a Mac machine and switch Java Version quickly" 
 author: testing4everyone
 categories: [ tutorial, smart-testing-lab, course]
-image: /assets/images/basic-tutorial/java/switch-java-version-mac.png
+image: assets/images/basic-tutorial/java/switch-java-version-mac.png
 tags: [tutorial, java]
 ---
 
