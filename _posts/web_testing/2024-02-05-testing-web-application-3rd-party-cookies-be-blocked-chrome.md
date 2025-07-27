@@ -3,7 +3,7 @@ layout: post
 title:  "Testing for your web application when 3rd party cookies will be blocked on Chrome"
 author: donald
 categories: [ microservice-test, collection, event-driven ]
-image: assets/images/microservice-testing/monolithic-vs-microservices-architecture.png
+image: assets/images/web-testing/testing-web-application-3rd-party-cookies-be-blocked-chrome/Untitled 7.png
 tags: [tutorial, microservice-test, event-driven]
 ---
 
