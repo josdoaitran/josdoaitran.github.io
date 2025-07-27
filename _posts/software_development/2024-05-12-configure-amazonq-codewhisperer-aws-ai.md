@@ -3,7 +3,7 @@ layout: post
 title:  "Configure AmazonQ & CodeWhisperer AWS AI tools for Software Engineer"
 author: donald
 categories: [ tips, sharing ]
-image: assets/images/software-development/open-vscode-terminal/Untitled.png
+image: assets/images/software-development/configure-amazonq-codewhisperer-aws-ai/Untitled 21.png
 ---
 Configure AmazonQ & CodeWhisperer AWS AI tools for Software Engineer
 # 🕹️Summary

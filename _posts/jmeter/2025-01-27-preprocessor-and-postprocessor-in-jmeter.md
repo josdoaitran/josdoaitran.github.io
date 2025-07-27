@@ -2,7 +2,7 @@
 layout: post
 title:  "Performance test - Preprocessor and Postprocessor in JMeter"
 author: donald
-categories: [ performance-test, tutorial ]
+categories: [ performance-test, jmeter, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
 ---
 

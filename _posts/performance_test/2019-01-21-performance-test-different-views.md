@@ -9,7 +9,7 @@ In Web application and Mobile application, The view of Client Side and Server Si
 
 End user devices such as laptops, smartphones, and desktop computers are considered to be 'clients' of the servers, as if they were customers obtaining services from a company. Client devices send requests to the servers for webpages or applications, and the servers serve up responses.
 
-![](assets/images/performance-testing/performance-test-client-view-server-view.png)
+![walking]({{ site.baseurl }}/assets/images/performance-testing/performance-test-client-view-server-view.png)
 
 **Client Side**: In Web application and Mobile application, Client View are what we see in UI, takes places on client (Browser or Mobile application).
 
@@ -19,7 +19,7 @@ This includes: text, images, and the rest of the UI, along with any actions that
 
 All actions from End-Users do on their browsers or mobile application will be transferred as requests to Server sides to request functions of the application provides. Once the requests come to Server, the server with components will handle to do what client side expect before return or response the correct responses.
 
-![](assets/images/performance-testing/client-view-vs-server-view.png)
+![walking]({{ site.baseurl }}/assets/images/performance-testing/client-view-vs-server-view.png)
 
 **References:**
 - Client Side, Server Side: https://www.cloudflare.com/learning/serverless/glossary/client-side-vs-server-side/

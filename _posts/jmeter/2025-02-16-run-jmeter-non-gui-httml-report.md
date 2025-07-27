@@ -2,7 +2,7 @@
 layout: post
 title:  "How to run Non-GUI mode of JMeter, Generating HTML report"
 author: donald
-categories: [ performance-test, tutorial ]
+categories: [ performance-test, jmeter, tutorial ]
 image: assets/images/performance-testing/performance-test-client-view-server-view.png
 tags: [tutorial, jmeter]
 ---
