@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software Testing Sharing"
+title:  "SQL for QA - Full Course"
 author: donald
 categories: [ sharing, collection ]
 image: assets/images/software-testing-general/software-testing-tools.jpg

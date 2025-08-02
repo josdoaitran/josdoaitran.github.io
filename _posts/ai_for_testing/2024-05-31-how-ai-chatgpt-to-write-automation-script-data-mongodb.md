@@ -3,7 +3,7 @@ layout: post
 title:  "AI write script - Data-Driven Mongodb"
 author: donald
 categories: [ ai-test, ai-agent, llm, mcp-ai ]
-image: assets/images/ai-for-testing/mcp-test-cases/how-claude-mcp-excel-work.png
+image: assets/images/ai-for-testing/how-ai-write-automation-test-data-mongodb/Untitled 4.png
 tags: [tutorial, ai-for-testing]
 ---
 

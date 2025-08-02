@@ -7,10 +7,11 @@ image: assets/images/web-automation-test/playwright-python.png
 ---
 In this post, I would like to collect all my sharing on Smart Testing Lab Youtube channel about automation testing with Playwright.
 
-# Playwright with Python - Sharing Testing4Everyone
+Playwright with Python - Sharing Smart Testing Lab
+
+![walking]({{ site.baseurl }}/assets/images/web-automation-test/playwright-python.png)
 
 ### What You Will Learn
-
 - Write Python scripts to launch browsers and automate tasks performed
 - Locate web elements using various methods and perform actions on web elements
 - Log in to websites and authenticate yourself using your accounts

@@ -6,6 +6,7 @@ categories: [ ai-test, tutorial ]
 image: assets/images/ai-for-testing/cursor/cursor-example.png
 tags: [tutorial, ai-for-testing]
 ---
+
 # Cursor - AI Editor Code
 - Cursor lets you write code using instructions. Update entire classes or functions with a simple prompt.
 - Source: [https://www.cursor.com/](https://www.cursor.com/)
