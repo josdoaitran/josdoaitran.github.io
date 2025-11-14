@@ -3,7 +3,7 @@ layout: post
 title:  "Configure multi Java version in our local machine"
 author: donald
 categories: [ tips, sharing ]
-image: assets/images/software-development/my-awesome-terminal-on-macbook/Untitled 1.png
+image: assets/images/software-development/my-awesome-terminal-on-macbook/Untitled.png
 ---
 
 In this post, I would like to share the essential steps to install Java environment to whom the first time using MacOS or less technical guys: QA, Tester ... especially who have more experience in using Windows more than using MacOsx. I tried to summarize the essential steps to be easy to follow and configure Java environment.
