@@ -3,7 +3,7 @@ layout: post
 title:  "My Awesome Terminal on MacBook"
 author: donald
 categories: [ tips, sharing ]
-image: assets/images/software-development/my-awesome-terminal-on-macbook/Untitled 1.png
+image: assets/images/software-development/my-awesome-terminal-on-macbook/Untitled.png
 ---
 
 # My Awesome Terminal on MacBook
