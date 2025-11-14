@@ -19,19 +19,13 @@ My custom terminal should have:
 
 This page was composed with the target to help me improve my writing skills and share you the way I configure my Terminal.
 
-Table of Contents
+Instead of using the default Terminal on MacOSX, I installed Warp and use it in my Daily work.
 
-Instead of using the default Terminal on MacOSX, I installed iTerm2 and use it in my Daily work.
+**Warp Link**:
+You can refer to this link to download Warp application to replace default terminal:
 
-**Iterm2 Link**:
+[https://www.warp.dev/](https://www.warp.dev/)
 
-[https://iterm2.com/documentation-one-page.html](https://iterm2.com/documentation-one-page.html)
-
-Here is the original Iterm2 User Interface
-
-![walking]({{ site.baseurl }}/assets/images/software-development/my-awesome-terminal-on-macbook/Untitled.png)
-
-And now, I do a couple of steps to make it more awesome. Original source page: https://github.com/romkatv/powerlevel10k
 
 ## Install these fonts:
 
@@ -42,10 +36,13 @@ And now, I do a couple of steps to make it more awesome. Original source page: h
 
 ## Install and setup `~/.zshrc`
 
-Run this command:
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+Run this command to install `~/.zshrc`
 
-![walking]({{ site.baseurl }}/assets/images/software-development/my-awesome-terminal-on-macbook/Untitled 1.png)
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+![walking]({{ site.baseurl }}/assets/images/software-development/my-awesome-terminal-on-macbook/Untitled.png)
 
 In cases, if you already configured your zshrc profile (For instance, you setup `git/npm/python/java`  environment in your zshrc), you can get the message like:
 
@@ -55,23 +52,6 @@ It’s meant that your old zshrc profile was backed up to the new folder: ***zsh
 
 In order to keep the existing configuration, you can copy the value on ***zshrc.pre-oh-my-zsh to new ~/.zshrc***
 
-## Install **zsh-autosuggestions** and **Zsh-syntax-highlighting** plugin on ZSH
-
-- Run 2 below commands:
-
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-
-```
-git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git) ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-- Add **zsh-autosuggestions** and **Zsh-syntax-highlighting**  into **config plugins** of **zshrc** profile
-
-Open `~/.zshrc` file by this command: `vi ~/.zshrc`
-
-![walking]({{ site.baseurl }}/assets/images/software-development/my-awesome-terminal-on-macbook/Untitled 2.png)
 
 ## Install `powerlevel10k`
 
@@ -82,9 +62,9 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 
-## Restart your iterm2 application
+## Restart your terminal and warp application
 
-You can restart your iterm2 by: quite your iterm2 and open it again.
+You can restart your warp by: quite your warp and open it again.
 
 You can follow the setup wizard of powerlevel10k
 
@@ -120,5 +100,5 @@ p10k configure
 
 And then you can follow the wizard to set up again the setting configuration on your terminal
 
-                                   — Copyright 2024 — 
+                                   — Copyright 2025 — 
 
